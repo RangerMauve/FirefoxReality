@@ -1148,8 +1148,18 @@
     STRs:
         - Click on the Bookmarks button in the tray.
     Expected Result:
-        - The bookmarks window should sho on top of the browser window.
+        - The bookmarks window should show on top of the browser window.
         - The window title should be 'Bookmarks'
      -->
     <string name="bookmarks_title">Bookmarks</string>
+    <!--
+    Description:
+         This string is displayed as the text inside the button for removing a Bookmark.
+    STRs:
+        - Click on the Bookmarks button in the tray.
+    Expected Result:
+        - The bookmarks window should show on top of the browser window.
+        - There should be a window to the right of a bookmark with the text 'Remove Bookmark'
+     -->
+    <string name="bookmarks_remove_button">Remove Bookmark</string>
 </resources>
