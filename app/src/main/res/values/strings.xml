@@ -1,273 +1,1155 @@
 <resources>
-    <!-- This string is used on the virtual keyboard to label the enter key -->
+    <!--
+    Description:
+        This string is used on the virtual keyboard to label the enter key
+    STRs:
+        - Click on the URL bar
+    Expected Result:
+        - Keyboard should open and you should see the Enter key showing 'ENTER'
+    -->
     <string name="keyboard_enter_label">ENTER</string>
-    <!-- This string will be displayed in a dialog box presented to the user
-         when the application needs to request permission to access the device's camera.
-         '%1$s' will be replaced at runtime with the app name. -->
+    <!--
+    Description:
+        This string will be displayed in a dialog box presented to the user
+        when the application needs to request permission to access the device's camera.
+        '%1$s' will be replaced at runtime with the app name.
+    STRs:
+        - Click on the URL bar
+        - Go to https://permission.site/
+        - Click on "Camera"
+    Expected Result:
+        - A dialog should open asking 'Will you allow permission.site to use your camera?'.
+     -->
     <string name="permission_camera">Will you allow %1$s to use your camera?</string>
-    <!-- This string will be displayed in a dialog box presented to the user
-         when the application needs to request permission to access the device's microphone.
-         '%1$s' will be replaced at runtime with the app name. -->
+    <!--
+    Description:
+        This string will be displayed in a dialog box presented to the user
+        when the application needs to request permission to access the device's microphone.
+        '%1$s' will be replaced at runtime with the app name.
+    STRs:
+        - Click on the URL bar
+        - Go to https://permission.site/
+        - Click on "Microphone"
+     Expected Result:
+        - A dialog should open asking 'Will you allow permission.site to use your microphone?'.
+     -->
     <string name="permission_microphone">Will you allow %1$s to use your microphone?</string>
-    <!-- This string will be displayed in a dialog box presented to the user
-         when the application needs to request permission to access the device's camera and microphone.
-         '%1$s' will be replaced at runtime with the app name. -->
+    <!--
+    Description:
+        This string will be displayed in a dialog box presented to the user
+        when the application needs to request permission to access the device's camera and microphone.
+        '%1$s' will be replaced at runtime with the app name.
+    STRs:
+        - Click on the URL bar
+        - Go to https://permission.site/
+        - Click on "Camera + Microphone"
+    Expected Result:
+        - A dialog should open asking 'Will you allow permission.site to use your camera and microphone?'.
+     -->
     <string name="permission_camera_and_microphone">Will you allow %1$s to use your camera and microphone?</string>
-    <!-- This string will be displayed in a dialog box presented to the user
-         when the application needs to request permission to access the device's geographic location.
-         '%1$s' will be replaced at runtime with the app name. -->
+    <!--
+    Description:
+        This string will be displayed in a dialog box presented to the user
+        when the application needs to request permission to access the device's geographic location.
+        '%1$s' will be replaced at runtime with the app name.
+    STRs:
+        - Click on the URL bar
+        - Go to https://permission.site/
+        - Click on "Location"
+    Expected Result:
+        - A dialog should open asking 'Will you allow permission.site to access your location?'.
+     -->
     <string name="permission_location">Will you allow %1$s to access your location?</string>
-    <!-- This string will be displayed in a dialog box presented to the user
-         when the application needs to request permission to send system notifications.
-         '%1$s' will be replaced at runtime with the app name. -->
+    <!--
+    Description:
+        This string will be displayed in a dialog box presented to the user
+        when the application needs to request permission to send system notifications.
+        '%1$s' will be replaced at runtime with the app name.
+    STRs:
+        - Click on the URL bar
+        - Go to https://permission.site/
+        - Click on "Notifications"
+    Expected Result:
+        - A dialog should open asking 'Will you allow permission.site to send notifications?'.
+     -->
     <string name="permission_notification">Will you allow %1$s to send notifications?</string>
-    <!-- This string will be displayed in a dialog box presented to the user
-         when the application needs to request permission to access the device's external storage such as the
-         sdcard. '%1$s' will be replaced at runtime with the app name. -->
+    <!--
+    Description:
+        This string will be displayed in a dialog box presented to the user when the application
+        needs to request permission to access the device's external storage such as the
+        sdcard. '%1$s' will be replaced at runtime with the app name.
+    STRs:
+        - Click on the URL bar
+        - Go to: file:///sdcard/
+    Expected Result:
+        - A dialog should open asking 'Will you allow permission.site to read your external storage?'.
+     -->
     <string name="permission_read_external_storage">Will you allow %1$s to read your external storage?</string>
-    <!-- This string is displayed in the settings dialog box and how
-         the user can know which version of the application they are currently running.
-         '%1$s' will be replaced at runtime with the application version number. -->
+    <!--
+    Description:
+        This string is displayed in the settings dialog box and how
+        the user can know which version of the application they are currently running.
+        '%1$s' will be replaced at runtime with the application version number.
+    STRs:
+        - Click on the Settings button in the tray.
+    Expected Result:
+        - Under the Firefox reality logo the following string should show: 'version 1.1'
+     -->
     <string name="settings_version">version %1$s</string>
-    <!-- This string is displayed in the settings dialog and is used to label an
-         On/Off switch which toggles whether an application crash is reported without first
-         prompting the user. -->
+    <!--
+    Description:
+        This string is displayed in the settings dialog and is used to label an
+        On/Off switch which toggles whether an application crash is reported without first
+        prompting the user.
+    STRs:
+        - Click on the Settings button in the tray.
+    Expected Result:
+        - A honeycomb should show with the 'Crash Reporting' text in it.
+     -->
     <string name="settings_crash_reporting">Crash Reporting</string>
-    <!-- This string is displayed in the settings dialog and is used to label an On/Off
-         switch which toggles whether telemetry is reported back to Mozilla -->
+    <!--
+    Description:
+        This string is displayed in the settings dialog and is used to label an On/Off
+        switch which toggles whether telemetry is reported back to Mozilla.
+    STRs:
+        - Click on the Settings button in the tray.
+    Expected Result:
+        - A honeycomb should show with the 'Telemetry' text in it.
+     -->
     <string name="settings_telemetry">Telemetry</string>
-    <!-- This string is used to label a button that when pressed loads a Web page the
-         describes Mozilla's privacy policy -->
-    <string name="settings_privacy">Privacy</string>
-    <!-- This string is used to label a button in the settings dialog that when pressed
-         opens a dialog box that contains settings that an application or Web developer might want to change -->
+    <!--
+    Description:
+        This string is used to label a button that when pressed loads a Web page the
+        describes Mozilla's privacy policy.
+    STRs:
+        - Click on the Settings button in the tray.
+    Expected Result:
+        - A honeycomb should show with the 'Privacy Policy' text in it.
+     -->
+    <string name="settings_privacy">Privacy Policy</string>
+    <!--
+    Description:
+        This string is used to label a button in the settings dialog that when pressed
+        opens a dialog box that contains settings that an application or Web developer might want to change.
+    STRs:
+        - Click on the Settings button in the tray.
+    Expected Result:
+        - Under the version text the following text should show: 'Developer Build'
+     -->
     <string name="settings_developer_options">Developer Options</string>
-    <!-- This string is used to label a button in the settings dialog that when pressed
-         opens a dialog box that contains language related settings. -->
+    <!--
+    Description:
+        This string is used to label a button in the settings dialog that when pressed
+        opens a dialog box that contains language related settings.
+    STRs:
+        - Click on the Settings button in the tray.
+    Expected Result:
+        - A honeycomb should show with the 'Language' text in it.
+     -->
     <string name="settings_language">Language</string>
-    <!-- This string is used to label a radio button in the settings dialog that when pressed
-         changes the app and the voice search language to US English. -->
+    <!--
+    Description:
+        This string is used to label a radio button in the settings language dialog that when pressed
+        changes the app and the voice search language to US English.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click in the Language honeycomb button.
+    Expected Result:
+        - Several radio buttons should show being one of the options 'English (US)'.
+     -->
     <string name="settings_language_english">English (US)</string>
-    <!-- This string is used to label a radio button in the settings dialog that when pressed
-         changes the app and the voice search language to(Traditional/Zhuyin). -->
+    <!--
+    Description:
+        This string is used to label a radio button in the settings language dialog that when pressed
+        changes the app and the voice search language to Chinese (Traditional/Zhuyin).
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click in the Language honeycomb button.
+    Expected Result:
+        - Several radio buttons should show being one of the options 'Chinese (Traditional/Zhuyin)'.
+     -->
     <string name="settings_language_traditional_chinese">Chinese (Traditional/Zhuyin)</string>
-    <!-- This string is used to label a radio button in the settings dialog that when pressed
-         changes the app and the voice search language to Chinese (Simplified/Pinyin). -->
+    <!--
+    Description:
+        This string is used to label a radio button in the settings language dialog that when pressed
+        changes the app and the voice search language to Chinese (Simplified/Pinyin).
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click in the Language honeycomb button.
+    Expected Result:
+        - Several radio buttons should show being one of the options 'Chinese (Simplified/Pinyin)'.
+     -->
     <string name="settings_language_simplified_chinese">Chinese (Simplified/Pinyin)</string>
-    <!-- This string is used to label a radio button in the settings dialog that when pressed
-         changes the app and the voice search language to Japanese. -->
+    <!--
+    Description:
+        This string is used to label a radio button in the settings language dialog that when pressed
+        changes the app and the voice search language to Japanese.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click in the Language honeycomb button.
+    Expected Result:
+        - Several radio buttons should show being one of the options 'Japanese'.
+    -->
     <string name="settings_language_japanese">Japanese</string>
-    <!-- This string is used to label a radio button in the settings dialog that when pressed
-         changes the app and the voice search language to French. -->
+    <!--
+    Description:
+        This string is used to label a radio button in the settings language dialog that when pressed
+        changes the app and the voice search language to French.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click in the Language honeycomb button.
+    Expected Result:
+        - Several radio buttons should show being one of the options 'French'.
+    -->
     <string name="settings_language_french">French</string>
-    <!-- This string is used to label a radio button in the settings dialog that when pressed
-         changes the app and the voice search language to German. -->
+    <!--
+    Description:
+        This string is used to label a radio button in the settings language dialog that when pressed
+        changes the app and the voice search language to German.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click in the Language honeycomb button.
+    Expected Result:
+        - Several radio buttons should show being one of the options 'German'.
+    -->
     <string name="settings_language_german">German</string>
-    <!-- This string is used to label a radio button in the settings dialog that when pressed
-         changes the app and the voice search language to Spanish. -->
+    <!--
+    Description:
+        This string is used to label a radio button in the settings language dialog that when pressed
+        changes the app and the voice search language to Spanish.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click in the Language honeycomb button.
+    Expected Result:
+        - Several radio buttons should show being one of the options 'Spanish'.
+    -->
     <string name="settings_language_spanish">Spanish</string>
-    <!-- This string is used to label a radio button in the settings dialog that when pressed
-         changes the app and the voice search language to Korean. -->
+    <!--
+    Description:
+        This string is used to label a radio button in the settings language dialog that when pressed
+        changes the app and the voice search language to Korean.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click in the Language honeycomb button.
+    Expected Result:
+        - Several radio buttons should show being one of the options 'Korean'.
+    -->
     <string name="settings_language_korean">Korean</string>
-    <!-- This string is used to label a radio button in the settings dialog that when pressed
-         changes the app and the voice search language to Italian. -->
+    <!--
+    Description:
+        This string is used to label a radio button in the settings language dialog that when pressed
+        changes the app and the voice search language to Italian.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click in the Language honeycomb button.
+    Expected Result:
+        - Several radio buttons should show being one of the options 'Italian'.
+    -->
     <string name="settings_language_italian">Italian</string>
-    <!-- This string is used to label a button in the settings dialog that when pressed
-         opens a dialog box that contains display related settings: window size, display density, etc -->
+    <!--
+    Description:
+        This string is used to label a button in the settings dialog that when pressed
+         opens a dialog box that contains display related settings: window size, display density, etc.
+    STRs:
+        - Click on the Settings button in the tray.
+    Expected Result:
+        - A honeycomb should show with the 'Display' text in it.
+     -->
     <string name="settings_display">Display</string>
-    <!-- This string is used to label a button in the settings dialog that when pressed
-         opens a dialog box that contains controller related options: pointer color and scroll direction -->
+    <!--
+    Description:
+        This string is used to label a button in the settings dialog that when pressed
+        opens a dialog box that contains controller related options: pointer color and scroll direction.
+    STRs:
+        - Click on the Settings button in the tray.
+    Expected Result:
+        - A honeycomb should show with the 'Controller Options' text in it.
+     -->
     <string name="settings_controller_options">Controller Options</string>
-    <!-- This string is displayed in the settings dialog and is used to label an
-         On/Off switch that enables/disables the speech data reporting -->
+    <!--
+    Description:
+        This string is displayed in the settings dialog and is used to label an
+         On/Off switch that enables/disables the speech data reporting.
+    STRs:
+        - Click on the Settings button in the tray.
+    Expected Result:
+        - A honeycomb should show with the 'Report Speech Data' text in it.
+     -->
     <string name="settings_report_speech_data">Report Speech Data</string>
-    <!-- This string is used to label a button that when pressed loads a Web page
-         that allows the user file an issue or problem they may have encountered while using the
-         application or while visiting a site -->
+    <!--
+    Description:
+        This string is used to label a button that when pressed loads a Web page
+        that allows the user file an issue or problem they may have encountered while using the
+        application or while visiting a site
+    STRs:
+        - Click on the Settings button in the tray.
+    Expected Result:
+        - A honeycomb should show with the 'Report an issue' text in it.
+     -->
     <string name="settings_report_issue">Report an issue</string>
-    <!-- This string is used in place of 'settings_version' for developer builds -->
+    <!--
+    Description:
+         This string is used in place of 'settings_version' for developer builds
+    STRs:
+        - Click on the Settings button in the tray.
+    Expected Result:
+        - Under the version number there should be a text saying 'Developer Build'
+     -->
     <string name="settings_version_developer">Developer Build</string>
-    <!-- This string is the title of a dialog box shown to the user when a settings
-         change requires the application to restart -->
+    <!--
+    Description:
+         This string is the title of a dialog box shown to the user when a settings
+         change requires the application to restart
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Developer Options.
+        - Enable the Environment Override setting.
+    Expected Result:
+        - A dialog should show.
+        - The dialog title should be 'Restart Required'
+     -->
     <string name="restart_dialog_restart">Restart Required</string>
-    <!-- This string is the text displayed in the restart dialog box explaining why the
-         restart is required. '%1$s' will be replaced at runtime with the app name. -->
+    <!--
+    Description:
+         This string is the text displayed in the restart dialog box explaining why the
+         restart is required. '%1$s' will be replaced at runtime with the app name.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Developer Options.
+        - Enable the Environment Override setting.
+    Expected Result:
+        - A dialog should show.
+         - The main text should be 'You must restart Firefox Reality in order to complete changes.
+         Would you like to do that now?'.
+     -->
     <string name="restart_dialog_text">You must restart %1$s in order to complete changes. Would you like to do that now?</string>
-    <!-- This string is used to label the button the user presses to restart the
-         application in the restart dialog -->
+    <!--
+    Description:
+         This string is used to label the button the user presses to restart the
+         application in the restart dialog.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Developer Options.
+        - Enable the Environment Override setting.
+    Expected Result:
+        - A dialog should show.
+        - There should be a button at the bottom with the text: 'Restart Now'.
+     -->
     <string name="restart_now_dialog_button">Restart Now</string>
-    <!-- This string is used to label the button the user presses to restart the
-     postpone the app restart -->
+    <!--
+    Description:
+         This string is used to label the button the user presses to restart the postpone the app restart.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Developer Options.
+        - Enable the Environment Override setting.
+    Expected Result:
+        - A dialog should show.
+        - There should be a button at the bottom with the text: 'Restart Later'.
+     -->
     <string name="restart_later_dialog_button">Restart Later</string>
-    <!-- This string labels an On/Off switch in the developer options
-         dialog and is used to toggle remote debugging of Web content in the application -->
+    <!--
+    Description:
+         This string labels an On/Off switch in the developer options
+         dialog and is used to toggle remote debugging of Web content in the application.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Developer Options.
+    Expected Result:
+        - A dialog should show.
+        - The first option description should be 'Enable Remote Debugging'.
+     -->
     <string name="developer_options_remote_debugging">Enable Remote Debugging</string>
-    <!-- This string labels an On/Off switch in the developer options dialog
-         and is used to toggle redirecting Javascript console output to the Android logcat -->
+    <!--
+    Description:
+         This string labels an On/Off switch in the developer options dialog
+         and is used to toggle redirecting Javascript console output to the Android logcat.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Developer Options.
+    Expected Result:
+        - A dialog should show.
+        - The second option description should be 'Redirect Console to Logcat'.
+     -->
     <string name="developer_options_show_console">Redirect Console to Logcat</string>
-    <!-- This string labels an On/Off switch in the developer options dialog
-         and is used to toggle loading externally generated environments and overriding the ones built in -->
+    <!--
+    Description:
+         This string labels an On/Off switch in the developer options dialog
+         and is used to toggle redirecting Javascript console output to the Android logcat.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Developer Options.
+    Expected Result:
+        - A dialog should show.
+        - The third option description should be 'Enable Environment Override'.
+     -->
     <string name="developer_options_env_override">Enable Environment Override</string>
-    <!-- This string labels an On/Off switch in the developer options dialog
-         and is used to toggle running content in a separate process.
-         Multiprocessing:
-         the running of two or more programs or sequences of instructions simultaneously
-         by a computer with more than one central processor. -->
+    <!--
+    Description:
+         This string labels an On/Off switch in the developer options dialog and is used to toggle
+         running content in a separate process.
+         Multiprocessing: the running of two or more programs or sequences of instructions
+         simultaneously by a computer with more than one central processor.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Developer Options.
+    Expected Result:
+        - A dialog should show.
+        - The fourth option description should be 'Enable Multiprocessing'.
+     -->
     <string name="developer_options_multiprocess">Enable Multiprocess</string>
-    <!-- The string labels an On/Off switch in the developer options dialog and is used to toggle enabling servo. -->
+    <!--
+    Description:
+         The string labels an On/Off switch in the developer options dialog and is used to toggle
+         enabling servo.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Developer Options.
+    Expected Result:
+        - A dialog should show.
+        - The fifth option description should be 'Enable Servo'.
+     -->
     <string name="developer_options_servo">Enable Servo</string>
-    <!-- This string is used to label a numerical-entry field where the user
-         may set a new value to use for the display density -->
+    <!--
+    Description:
+         This string is used to label a numerical-entry field where the user may set a new value to
+         use for the display density.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Display.
+    Expected Result:
+        - A dialog should show.
+        - The sixth option description should be 'Display Density:'.
+     -->
     <string name="developer_options_display_density">Display Density:</string>
-    <!-- This string is used to label two integer-entry fields where the default width and height of
-         the browser window may be set -->
+    <!--
+    Description:
+         This string is used to label two integer-entry fields where the default width and height of
+         the browser window may be set.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Display.
+    Expected Result:
+        - A dialog should show.
+        - The fourth option description should be 'Window Size:'.
+     -->
     <string name="developer_options_window_size">Window Size:</string>
-    <!-- This string is used to label buttons to enable editing of text fields in the developer
+    <!--
+    Description:
+         This string is used to label buttons to enable editing of text fields in the developer
          options dialog. Pressing this button switches the text to editable-text fields so their values
-         may be changed. -->
+         may be changed.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Display.
+    Expected Result:
+        - A dialog should show.
+        - all the editable options edit buttons should have the text 'Edit'.
+     -->
     <string name="developer_options_edit">Edit</string>
-    <!-- This string is used to label the 'Edit' button once it has been clicked by the user. It
-         indicates that when the button is clicked that the user's edits will be saved. -->
+    <!--
+    Description:
+         This string is used to label the 'Edit' button once it has been clicked by the user. It
+         indicates that when the button is clicked that the user's edits will be saved.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Display.
+        - Click on any edit button.
+    Expected Result:
+        - The edit button text should change to 'Save'.
+     -->
     <string name="developer_options_save">Save</string>
-    <!-- This string is used to label a numerical entry field where the user may enter a new value
-         for the virtual displays Dots Per Inch (DPI) -->
+    <!--
+    Description:
+         This string is used to label a numerical entry field where the user may enter a new value
+         for the virtual displays Dots Per Inch (DPI).
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Display.
+    Expected Result:
+        - A dialog should show.
+        - The third option description should be 'Display DPI:'.
+     -->
     <string name="developer_options_display_dpi">Display DPI:</string>
-    <!-- This string is used to label two integer entry fields that will allow the user to adjust
-         the maximum window size in the X and Y dimensions -->
+    <!--
+    Description:
+         This string is used to label two integer entry fields that will allow the user to adjust
+         the maximum window size in the X and Y dimensions.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Display.
+    Expected Result:
+        - A dialog should show.
+        - The fifth option description should be 'Max. Window Size:'.
+     -->
     <string name="developer_options_max_window_size">Max. Window Size:</string>
-    <!-- This string is used to label radio buttons for setting Multi-Sample Anti-Aliasing (MSAA) in
-         VR Immersive Mode -->
+    <!--
+    Description:
+         This string is used to label radio buttons for setting Multi-Sample Anti-Aliasing (MSAA) in
+         VR Immersive Mode.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Display.
+    Expected Result:
+        - A dialog should show.
+        - The second option description should be 'MSAA'.
+     -->
     <string name="developer_options_msaa">MSAA</string>
-    <!-- This string is used to label the MSAA radio button that disables MSAA in Immersive Mode -->
+    <!--
+    Description:
+         This string is used to label the MSAA radio button that disables MSAA in Immersive Mode.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Display.
+    Expected Result:
+        - A dialog should show.
+        - The first radio button option in the MSAA setting should be 'Disabled'.
+     -->
     <string name="developer_options_msaa_disabled">Disabled</string>
-    <!-- This string is used to label the MSAA radio button that enables two times MSAA in Immersive Mode -->
+    <!--
+    Description:
+         This string is used to label the MSAA radio button that enables two times MSAA in Immersive Mode.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Display.
+    Expected Result:
+        - A dialog should show.
+        - The second radio button option in the MSAA setting should be '2x'.
+     -->
     <string name="developer_options_msaa_2">2x</string>
-    <!-- This string is used to label the MSAA radio button that enables four times MSAA in Immersive Mode -->
+    <!--
+    Description:
+         This string is used to label the MSAA radio button that enables two times MSAA in Immersive Mode.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Display.
+    Expected Result:
+        - A dialog should show.
+        - The third radio button option in the MSAA setting should be '4x'.
+     -->
     <string name="developer_options_msaa_4">4x</string>
-    <!-- This string is used to label a set of radio buttons that allow the user to
-     change the user-agent (UA) string of the browser -->
+    <!--
+    Description:
+         This string is used to label a set of radio buttons that allow the user to change the
+         user-agent (UA) string of the browser.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Display.
+    Expected Result:
+        - A dialog should show.
+        - The first option description should be 'User-Agent Mode'.
+     -->
     <string name="developer_options_ua_mode">User-Agent Mode</string>
-    <!-- This string is used to label the desktop user-agent radio button of the 'User-Agent Mode'
-         settings option -->
+    <!--
+    Description:
+         This string is used to label the desktop user-agent radio button of the 'User-Agent Mode'
+         settings option.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Display.
+    Expected Result:
+        - A dialog should show.
+        - The second radio button option in the User-Agent Mode setting should be 'Desktop'.
+     -->
     <string name="developer_options_ua_desktop">Desktop</string>
-    <!-- This string is used to label the mobile user-agent radio button of the 'User-Agent Mode'
-         settings option -->
+    <!--
+    Description:
+         This string is used to label the desktop user-agent radio button of the 'User-Agent Mode'
+         settings option.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Display.
+    Expected Result:
+        - A dialog should show.
+        - The first radio button option in the User-Agent Mode setting should be 'Mobile'.
+     -->
     <string name="developer_options_ua_mobile">Mobile</string>
-    <!-- This string is used to label the virtual reality (VR) user-agent radio button of the
-         'User-Agent Mode' settings option -->
+    <!--
+    Description:
+         This string is used to label the desktop user-agent radio button of the 'User-Agent Mode'
+         settings option.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Display.
+    Expected Result:
+        - A dialog should show.
+        - The third radio button option in the User-Agent Mode setting should be 'VR'.
+     -->
     <string name="developer_options_ua_vr">VR</string>
-    <!-- This string describes what the 'Reset' button in the developer options does which is
-         restore all the developer settings to their default value -->
+    <!--
+    Description:
+         This string describes what the 'Reset' button in the developer options does which is
+         restore all the developer settings to their default value.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Display.
+    Expected Result:
+        - A dialog should show.
+        - The last option description should be 'Reset Developer Settings'.
+     -->
     <string name="developer_options_reset">Reset Developer Settings</string>
-    <!-- This string labels the 'Reset' button that restores the default developer settings values -->
+    <!--
+    Description:
+         This string labels the 'Reset' button that restores the default developer settings values.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Display.
+    Expected Result:
+        - A dialog should show.
+        - The last option button text should be 'Reset'.
+     -->
     <string name="developer_options_reset_button">Reset</string>
-    <!-- This string describes the radio buttons used to select the user's background environment
-         (seen while not in Immersive Mode) -->
+    <!--
+    Description:
+         This string describes the radio buttons used to select the user's background environment
+         (seen while not in Immersive Mode).
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Developer Options.
+    Expected Result:
+        - A dialog should show.
+        - The fifth option description should be 'Environment'.
+     -->
     <string name="developer_options_environments">Environment</string>
-    <!-- This string labels the radio button that selects the 'Cave' environment -->
+    <!--
+    Description:
+         This string labels the radio button that selects the 'Cave' environment.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Developer Options.
+    Expected Result:
+        - A dialog should show.
+        - The second radio button option in the Environment setting should be 'Cave'.
+     -->
     <string name="developer_options_env_cave">Cave</string>
-    <!-- This string labels the radio button that selects the 'Meadow' environment -->
+    <!--
+    Description:
+         This string labels the radio button that selects the 'Meadow' environment.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Developer Options.
+    Expected Result:
+        - A dialog should show.
+        - The third radio button option in the Environment setting should be 'Meadow'.
+     -->
     <string name="developer_options_env_meadow">Meadow</string>
-    <!-- This string labels the radio button that selects the 'Void' environment.
-         The 'Void' environment is an empty space that surrounds the user in empty, black space. -->
+    <!--
+    Description:
+         This string labels the radio button that selects the 'Void' environment.
+         The 'Void' environment is an empty space that surrounds the user in empty, black space.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Developer Options.
+    Expected Result:
+        - A dialog should show.
+        - The first radio button option in the Environment setting should be 'Void'.
+     -->
     <string name="developer_options_env_void">Void</string>
-    <!-- This string describes the radio buttons used to select the pointer color -->
+    <!--
+    Description:
+         This string describes the radio buttons used to select the pointer color.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Controller Options.
+    Expected Result:
+        - A dialog should show.
+        - The first option description should be 'Pointer Color'.
+     -->
     <string name="developer_options_pointer_color">Pointer Color</string>
-    <!-- This string labels the radio button that sets the pointer color to purple -->
+    <!--
+    Description:
+         This string labels the radio button that sets the pointer color to purple.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Controller Options.
+    Expected Result:
+        - A dialog should show.
+        - The second radio button option in the Environment setting should be 'Purple'.
+     -->
     <string name="developer_options_pointer_purple">Purple</string>
-    <!-- This string labels the radio button that sets the pointer color to white -->
+    <!--
+    Description:
+         This string labels the radio button that sets the pointer color to white.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Controller Options.
+    Expected Result:
+        - A dialog should show.
+        - The second radio button option in the Environment setting should be 'White'.
+     -->
     <string name="developer_options_pointer_white">White</string>
-    <!-- This string is displayed below the On/Off switch to indicate a switch's current state as 'On' -->
+    <!--
+    Description:
+         This string is displayed below the On/Off switch to indicate a switch's current state as 'On'.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Controller Options.
+    Expected Result:
+        - A dialog should show.
+        - For any enabled switch option the color should be green and the text should be 'On'.
+     -->
     <string name="on">On</string>
-    <!-- This string is displayed below the On/Off switch to indicate a switch's current state as 'Off' -->
+    <!--
+    Description:
+         This string is displayed below the On/Off switch to indicate a switch's current state as 'Off'.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Controller Options.
+    Expected Result:
+        - A dialog should show.
+        - For any enabled switch option the color should be red and the text should be 'Off'.
+     -->
     <string name="off">Off</string>
-    <!-- This string is displayed in the voice-search dialog box that is show to the user when they press the
-         button used to initiate voice search -->
+    <!--
+    Description:
+         This string is displayed in the voice-search dialog box that is show to the user when they press the
+         button used to initiate voice search.
+    STRs:
+        - Click on the microphone icon in the URL bar.
+        - Accept the permission if requested
+    Expected Result:
+        - A voice search dialog should show.
+        - The main text in the dialog should be 'What would you like to search on the Web?'.
+     -->
     <string name="voice_search_start">What would you like to search on the Web?</string>
-    <!-- This string is displayed in the voice-search dialog box and gives examples of phrases they
-         might use in a voice search -->
+    <!--
+    Description:
+         This string is displayed in the voice-search dialog box that is show to the user when they press the
+         button used to initiate voice search.
+    STRs:
+        - Click on the microphone icon in the URL bar.
+        - Accept the permission if requested
+    Expected Result:
+        - A voice search dialog should show.
+        - The secondary text in the dialog should be 'Example: Please say, "360 videos, weather, news…"'.
+     -->
     <string name="voice_search_example">Example: Please say, \"360 videos, weather, news…\"</string>
-    <!-- This string is displayed in a dialog box show to the user while the voice search is being
-         performed. It indicates that the search query is running and they should wait for the result. -->
+    <!--
+    Description:
+         This string is displayed in a dialog box show to the user while the voice search is being
+         performed. It indicates that the search query is running and they should wait for the result.
+    STRs:
+        - Click on the microphone icon in the URL bar.
+        - Accept the permission if requested
+    Expected Result:
+        - A voice search dialog should show.
+        - Search anything using the voice input.
+        - The main text in the dialog should be 'Searching…'.
+     -->
     <string name="voice_search_decoding">Searching…</string>
-    <!-- This string is displayed in a dialog box when the phrase the user spoke for the voice search
-         was not understood by the system -->
+    <!--
+    Description:
+         This string is displayed in a dialog box show to the user while the voice search is being
+         performed. It indicates that the search query is running and they should wait for the result.
+    STRs:
+        - Click on the microphone icon in the URL bar.
+        - Accept the permission if requested
+    Expected Result:
+        - A voice search dialog should show.
+        - Make the voice search fail (any sound that is not a word will work)
+        - The main text in the dialog should be 'Sorry! I could not understand.'.
+     -->
     <string name="voice_search_error">Sorry! I could not understand.</string>
-    <!-- This string is displayed in a dialog box after a failed voice search and the system is prompting the
-         user to try the voice search again -->
+    <!--
+    Description:
+         This string is displayed in a dialog box after a failed voice search and the system is prompting the
+         user to try the voice search again.
+    STRs:
+        - Click on the microphone icon in the URL bar.
+        - Accept the permission if requested
+    Expected Result:
+        - A voice search dialog should show.
+        - Make the voice search fail (any sound that is not a word will work)
+        - The secondary text in the dialog should be 'Please try again.'.
+     -->
     <string name="voice_search_try_again">Please try again.</string>
-    <!-- This string is displayed in a dialog after the user has declined permission to use the
-         device's microphone. It explains why voice search is not working. -->
+    <!--
+    Description:
+         This string is displayed in a dialog after the user has declined permission to use the
+         device's microphone. It explains why voice search is not working.
+    STRs:
+        - Click on the microphone icon in the URL bar.
+        - Reject the permission if requested
+    Expected Result:
+        - A voice search dialog should show.
+        - The main text in the dialog should be 'Please allow microphone access to use the voice search.'.
+     -->
     <string name="voice_search_permission_after_decline">Please allow microphone access to use the voice search.</string>
-    <!-- This string is displayed in the URL bar when it is empty. It informs the user that they
-         may use the URL bar to search the Web or enter a Web address. -->
+    <!--
+    Description:
+         This string is displayed in the URL bar when it is empty. It informs the user that they
+         may use the URL bar to search the Web or enter a Web address.
+    STRs:
+        - Open the app
+    Expected Result:
+        - The URL bar hint text when it's empty should be 'Search the Web or enter address'.
+     -->
     <string name="search_placeholder">Search the Web or enter address</string>
-    <!-- This string labels a button that is used to cancel an action -->
+    <!--
+    Description:
+         This string labels a button that is used to cancel an action.
+    STRs:
+        - Go to https://mzl.la/2MGlwdI
+        - Click "Drop down select fields" (nº25)
+    Expected Result:
+        - A new page should load
+        - Click on the multiple selections test
+        - A dialog should show
+        - There should a button at the bottom of the dialog with the text "Cancel"
+     -->
     <string name="cancel_button">Cancel</string>
-    <!-- This string labels a button that is used to approve an action -->
+    <!--
+    Description:
+         This string labels a button that is used to approve an action.
+    STRs:
+        - Go to https://mzl.la/2MGlwdI
+        - Click "Drop down select fields" (nº25)
+    Expected Result:
+        - A new page should load
+        - Click on the multiple selections test
+        - A dialog should show
+        - There should a button at the bottom of the dialog with the text "OK"
+     -->
     <string name="ok_button">OK</string>
-    <!-- This string labels a button to go back to the previous menu or exits the current mode -->
+    <!--
+    Description:
+         This string labels a button that is used to approve an action.
+    STRs:
+        N/A
+    Expected Result:
+        N/A
+     -->
     <string name="back_button">Back</string>
-    <!-- This string is displayed in a dialog after an application crash -->
+    <!--
+    Description:
+         This string is displayed in a dialog after an application crash.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Develop Options.
+        - Enable the Multiprocess options
+        - Close the Developer Options and the Settings dialog
+        - Go to about:crashcontent
+    Expected Result:
+        - A dialog should show
+        - The dialog title should be 'We had an issue and crashed'.
+     -->
     <string name="crash_dialog_heading">We had an issue and crashed</string>
-    <!-- This string explains why Mozilla would like the user to allow the crash data to be uploaded.
-         '%1$s' will be replaced at runtime with the app name. -->
+    <!--
+    Description:
+         This string explains why Mozilla would like the user to allow the crash data to be uploaded.
+         '%1$s' will be replaced at runtime with the app name.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Develop Options.
+        - Enable the Multiprocess options
+        - Close the Developer Options and the Settings dialog
+        - Go to about:crashcontent
+    Expected Result:
+        - A dialog should show
+        - The main dialog text should be 'Please help Mozilla improve %1$s by sending your crash data.'.
+     -->
     <string name="crash_dialog_message">Please help Mozilla improve %1$s by sending your crash data.</string>
-    <!-- This string labels a checkbox in the crash dialog box. When checked, the user will no longer
-         be prompted for permission to upload crash data after an application crash. -->
+    <!--
+    Description:
+         This string labels a checkbox in the crash dialog box. When checked, the user will no longer
+         be prompted for permission to upload crash data after an application crash.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Develop Options.
+        - Enable the Multiprocess options
+        - Close the Developer Options and the Settings dialog
+        - Go to about:crashcontent
+    Expected Result:
+        - A dialog should show
+        - The checkbox text should be 'Always send data without asking'.
+     -->
     <string name="crash_dialog_send_data">Always send data without asking</string>
-    <!-- This string labels a button that when clicked allows the user to learn more about the
-         currently open dialog -->
+    <!--
+    Description:
+         This string labels a button that when clicked allows the user to learn more about the
+         currently open dialog.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Develop Options.
+        - Enable the Multiprocess options
+        - Close the Developer Options and the Settings dialog
+        - Go to about:crashcontent
+    Expected Result:
+        - A dialog should show
+        - The should be a button at the bottom of the dialog with the text 'Learn More'.
+     -->
     <string name="learn_more_button">Learn More</string>
-    <!-- This string labels a button that when clicked prevents crash data from being sent to Mozilla -->
+    <!--
+    Description:
+         This string labels a button that when clicked prevents crash data from being sent to Mozilla.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Develop Options.
+        - Enable the Multiprocess options
+        - Close the Developer Options and the Settings dialog
+        - Go to about:crashcontent
+    Expected Result:
+        - A dialog should show
+        - The should be a button at the bottom of the dialog with the text 'Do Not Send'.
+     -->
     <string name="do_not_sent_button">Do Not Send</string>
-    <!-- This string labels a button that when clicked allows the crash data to be sent to Mozilla -->
+    <!--
+    Description:
+         This string labels a button that when clicked allows the crash data to be sent to Mozilla.
+    STRs:
+        - Click on the Settings button in the tray.
+        - Click on Develop Options.
+        - Enable the Multiprocess options
+        - Close the Developer Options and the Settings dialog
+        - Go to about:crashcontent
+    Expected Result:
+        - A dialog should show
+        - The should be a button at the bottom of the dialog with the text 'Send Data'.
+     -->
     <string name="send_data_button">Send Data</string>
-    <!-- This string describes the radio buttons used to select the user's background brightness mode -->
+    <!--
+    Description:
+         This string labels the radio button that selects the 'Normal' background Brightness mode.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
     <string name="brightness_mode_tooltip">Brightness</string>
-    <!-- This string labels the radio button that selects the 'Normal' background Brightness mode -->
+    <!--
+    Description:
+         This string labels the radio button that selects the 'Normal' background Brightness mode.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
     <string name="brightness_mode_normal">Normal</string>
-    <!-- This string labels the radio button that selects the 'Dark' background Brightness mode -->
+    <!--
+    Description:
+         This string labels the radio button that selects the 'Dark' background Brightness mode.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
     <string name="brightness_mode_dark">Dark</string>
-    <!-- This string labels the radio button that selects the 'Void' background Brightness mode -->
+    <!--
+    Description:
+         This string labels the radio button that selects the 'Void' background Brightness mode.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
     <string name="brightness_mode_void">Void</string>
-    <!-- This string labels a button to open the Video Projection selector -->
+    <!--
+    Description:
+         This string labels a button to open the Video Projection selector.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
     <string name="video_mode_tooltip">Video Projection</string>
-    <!-- This string is displayed when selecting a video playback mode -->
+    <!--
+    Description:
+         This string is displayed when selecting a video playback mode.
+    STRs:
+        - Go to https://youtube.com
+        - Play any video.
+        - Make the video play in full screen.
+        - A video playback control bar should show under the browser window.
+        - Click on the video projection icon (glasses)
+    Expected Result:
+        - First item in the list should be "3D Side by Side"
+     -->
     <string name="video_mode_3d_side">3D Side by Side</string>
-    <!-- This string is displayed when selecting a video playback mode -->
+    <!--
+    Description:
+         This string is displayed when selecting a video playback mode.
+    STRs:
+        - Go to https://youtube.com
+        - Play any video.
+        - Make the video play in full screen.
+        - A video playback control bar should show under the browser window.
+        - Click on the video projection icon (glasses)
+    Expected Result:
+        - Second item in the list should be "360"
+     -->
     <string name="video_mode_360">360</string>
-    <!-- This string is displayed when selecting a video playback mode -->
+    <!--
+    Description:
+         This string is displayed when selecting a video playback mode.
+    STRs:
+        - Go to https://youtube.com
+        - Play any video.
+        - Make the video play in full screen.
+        - A video playback control bar should show under the browser window.
+        - Click on the video projection icon (glasses)
+    Expected Result:
+        - Third item in the list should be "360 Stereo"
+     -->
     <string name="video_mode_360_stereo">360 Stereo</string>
-    <!-- This string is displayed when selecting a video playback mode -->
+    <!--
+    Description:
+         This string is displayed when selecting a video playback mode.
+    STRs:
+        - Go to https://youtube.com
+        - Play any video.
+        - Make the video play in full screen.
+        - A video playback control bar should show under the browser window.
+        - Click on the video projection icon (glasses)
+    Expected Result:
+        - Fourth item in the list should be "180"
+     -->
     <string name="video_mode_180">180</string>
-    <!-- This string is displayed when selecting a video playback mode -->
+    <!--
+    Description:
+         This string is displayed when selecting a video playback mode.
+    STRs:
+        - Go to https://youtube.com
+        - Play any video.
+        - Make the video play in full screen.
+        - A video playback control bar should show under the browser window.
+        - Click on the video projection icon (glasses)
+    Expected Result:
+        - Fifth item in the list should be "Stereo 180 Left to Right"
+     -->
     <string name="video_mode_180_left_right">Stereo 180 Left to Right</string>
-    <!-- This string is displayed when selecting a video playback mode -->
+    <!--
+    Description:
+         This string is displayed when selecting a video playback mode.
+    STRs:
+        - Go to https://youtube.com
+        - Play any video.
+        - Make the video play in full screen.
+        - A video playback control bar should show under the browser window.
+        - Click on the video projection icon (glasses)
+    Expected Result:
+        - Fifth item in the list should be "Stereo 180 Top to Bottom"
+     -->
     <string name="video_mode_180_top_bottom">Stereo 180 Top to Bottom</string>
-    <!-- This string is displayed when selecting a video playback mode -->
+    <!--
+    Description:
+         This string is displayed when selecting a video playback mode.
+    STRs:
+        - Go to https://youtube.com
+        - Play any video.
+        - Make the video play in full screen.
+        - A video playback control bar should show under the browser window.
+        - Click on the video projection icon (glasses)
+    Expected Result:
+        - Fifth item in the list should be "2D"
+     -->
     <string name="video_mode_2d">2D</string>
-    <!-- This string is displayed as a tooltip in the video controls UI -->
+    <!--
+    Description:
+         This string is displayed as a tooltip in the video controls UI.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
     <string name="video_controls_play">Play</string>
-    <!-- This string is displayed as a tooltip in the video controls UI -->
+    <!--
+    Description:
+         This string is displayed as a tooltip in the video controls UI.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
     <string name="video_controls_pause">Pause</string>
-    <!-- This string is displayed as a tooltip in the video controls UI -->
+    <!--
+    Description:
+         This string is displayed as a tooltip in the video controls UI.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
     <string name="video_controls_mute">Mute</string>
-    <!-- This string is displayed as a tooltip in the video controls UI -->
+    <!--
+    Description:
+         This string is displayed as a tooltip in the video controls UI.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
     <string name="video_controls_unmute">Unmute</string>
-    <!-- This string is displayed as a tooltip in the video controls UI -->
+    <!--
+    Description:
+         This string is displayed as a tooltip in the video controls UI.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
     <string name="video_controls_volume">Volume</string>
-    <!-- This string is displayed as a tooltip in the video controls UI (e.g., Seek +10 seconds) -->
+    <!--
+    Description:
+         This string is displayed as a tooltip in the video controls UI (e.g., Seek +10 seconds).
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
     <string name="video_controls_seek_forward">Seek +%1$ seconds</string>
-    <!-- This string is displayed as a tooltip in the video controls UI (e.g., Seek -10 seconds) -->
+    <!--
+    Description:
+         This string is displayed as a tooltip in the video controls UI (e.g., Seek -10 seconds).
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
     <string name="video_controls_seek_backward">Seek -%1$ seconds</string>
-    <!-- This string is displayed in the video control seekbar when the media is not seekable
-        (e.g. a live stream video). Prefer a short text because it affects the width of the seek bar -->
+    <!--
+    Description:
+         This string is displayed in the video control seekbar when the media is not seekable
+        (e.g. a live stream video). Prefer a short text because it affects the width of the seek bar.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
     <string name="video_controls_live">LIVE</string>
-    <!-- This string is displayed in the button that means the user accepts the
-         permission requested for in the permission dialog box -->
+    <!--
+    Description:
+         This string is displayed in the button that means the user accepts the
+         permission requested for in the permission dialog box.
+    STRs:
+        - Click on the URL bar
+        - Go to https://permission.site/
+        - Click on "Camera"
+    Expected Result:
+        - A dialog should show.
+        - There should be a button with he text 'Allow'.
+     -->
     <string name="permission_allow">Allow</string>
-    <!-- This string is displayed in the button that means the user rejects the
-         permission requested for in the permission dialog box -->
+    <!--
+    Description:
+         This string is displayed in the button that means the user rejects the
+         permission requested for in the permission dialog box.
+    STRs:
+        - Click on the URL bar
+        - Go to https://permission.site/
+        - Click on "Camera"
+    Expected Result:
+        - A dialog should show.
+        - There should be a button with he text 'Don't Allow'.
+     -->
     <string name="permission_reject">Don’t Allow</string>
+    <!--
+    Description:
+         This string is displayed as the title of the bookmarks view.
+    STRs:
+        - Click on the Bookmarks button in the tray.
+    Expected Result:
+        - The bookmarks window should sho on top of the browser window.
+        - The window title should be 'Bookmarks'
+     -->
+    <string name="bookmarks_title">Bookmarks</string>
 </resources>
