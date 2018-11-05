@@ -1144,22 +1144,349 @@
     <string name="permission_reject">Don’t Allow</string>
     <!--
     Description:
-         This string is displayed as the title of the bookmarks view.
+         This string is displayed as the title of the bookmarks page.
     STRs:
-        - Click on the Bookmarks button in the tray.
+        - N/A
     Expected Result:
-        - The bookmarks window should show on top of the browser window.
-        - The window title should be 'Bookmarks'
+        - N/A
      -->
     <string name="bookmarks_title">Bookmarks</string>
     <!--
     Description:
-         This string is displayed as the text inside the button for removing a Bookmark.
+         This string is displayed as a tooltip in the bookmark remove button Bookmarks view.
     STRs:
-        - Click on the Bookmarks button in the tray.
+        - N/A
     Expected Result:
-        - The bookmarks window should show on top of the browser window.
-        - There should be a window to the right of a bookmark with the text 'Remove Bookmark'
+        - N/A
      -->
-    <string name="bookmarks_remove_button">Remove Bookmark</string>
+    <string name="bookmarks_remove">Remove Bookmark</string>
+    <!--
+    Description:
+         This string is displayed as a tooltip in the bookmark edit button Bookmarks view.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="bookmarks_edit">Edit This Bookmark</string>
+    <!--
+    Description:
+         This string is displayed as hint in the bookmark search text field.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="bookmarks_search">Search Bookmarks</string>
+    <!--
+    Description:
+         This string is displayed as a tooltip in the bookmark button in the URL bar.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="bookmarks_bookmark">Bookmark This Page</string>
+    <!--
+    Description:
+         This string is displayed in the Bookmarks view for as the header of the most recently
+         bookmarked items.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="bookmarks_recent">Recently Bookmarked</string>
+    <!--
+    Description:
+         This string is displayed in the Bookmarks view as a tooltip of the button for showing
+         all the bookmarks.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="bookmarks_show_all">Show All Bookmarks</string>
+    <!--
+    Description:
+         This string is displayed as the title of the history view.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="history_title">History</string>
+    <!--
+    Description:
+         This string is displayed in the history view as the header for the history items visited today.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="history_today">Today</string>
+    <!--
+    Description:
+         This string is displayed in the history view as the header for the history items visited
+         lat week.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="history_week">Last 7 Days</string>
+    <!--
+    Description:
+         This string is displayed in the history view as the header for the history items visited
+         lat week.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="history_remove">Remove From History</string>
+    <!--
+    Description:
+         This string is displayed as hint in the history search text field.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="history_search">Search History</string>
+    <!--
+    Description:
+         This string is displayed as the title of the downloads view.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="downloads_title">Downloads</string>
+    <!--
+    Description:
+         This string is displayed in a context menu when long clicking on a link.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="save_link">Save Link As...</string>
+    <!--
+    Description:
+         This string is displayed in a context menu when long clicking on a link.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="save_page">Save Page As...</string>
+    <!--
+    Description:
+         This string is displayed in a context menu when long clicking on a link.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="open_in_window">Open Link In A New Window</string>
+    <!--
+    Description:
+        This string is displayed in a context menu when long clicking on a link.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+    -->
+    <string name="open_in_tab">Open Link In A New Tab</string>
+    <!--
+    Description:
+        This string is displayed in a context menu when long clicking on a link.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+    -->
+    <string name="open_in_private_window">Open Link in New Private Window</string>
+    <!--
+    Description:
+        This string is displayed in a context menu when long clicking on a link.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+    -->
+    <string name="copy_link_location">Copy Link Location</string>
+    <!--
+    Description:
+        This string is displayed in a context menu when long clicking on a link.
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+    -->
+    <string name="bookmark_link">Bookmark This Link</string>
+    <!--
+    Description:
+         This string is displayed for January across the app (History, Downloads, Bookmarks, etc)
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="months_january">January</string>
+    <!--
+    Description:
+         This string is displayed for February across the app (History, Downloads, Bookmarks, etc)
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="months_february">February</string>
+    <!--
+    Description:
+         This string is displayed for March across the app (History, Downloads, Bookmarks, etc)
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="months_march">March</string>
+    <!--
+    Description:
+         This string is displayed for April across the app (History, Downloads, Bookmarks, etc)
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="months_april">April</string>
+    <!--
+    Description:
+         This string is displayed for June across the app (History, Downloads, Bookmarks, etc)
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="months_june">June</string>
+    <!--
+    Description:
+         This string is displayed for July across the app (History, Downloads, Bookmarks, etc)
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="months_july">July</string>
+    <!--
+    Description:
+         This string is displayed for August across the app (History, Downloads, Bookmarks, etc)
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="months_august">August</string>
+    <!--
+    Description:
+         This string is displayed for September across the app (History, Downloads, Bookmarks, etc)
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="months_september">September</string>
+    <!--
+    Description:
+         This string is displayed for October across the app (History, Downloads, Bookmarks, etc)
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="months_october">October</string>
+    <!--
+    Description:
+         This string is displayed for November across the app (History, Downloads, Bookmarks, etc)
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="months_november">November</string>
+    <!--
+    Description:
+         This string is displayed for December across the app (History, Downloads, Bookmarks, etc)
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="months_december">December</string>
+    <!--
+    Description:
+         This string is for items that were recently modified across the
+         app (History, Downloads, Bookmarks, etc)
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="recently_modified">Recently Modified</string>
+    <!--
+    Description:
+         Tis tab is shown in the button for opening a new tab
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="new_tab">New Tab</string>
+    <!--
+    Description:
+         Tis tab is shown in the button for closing a new tab
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="close_tab">Close Tab</string>
+    <!--
+    Description:
+         Tis tab is shown in the button for opening a new window
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="new_window">New Window</string>
+    <!--
+    Description:
+         Tis tab is shown in the button for opening a new private window
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="new_private_window">New Private Window</string>
+    <!--
+    Description:
+         Tis tab is shown in the button for restoring the previous session
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="restore_session">Restore Previous Session</string>
+    <!--
+    Description:
+         Tis tab is shown in the button for reloading the current page
+    STRs:
+        - N/A
+    Expected Result:
+        - N/A
+     -->
+    <string name="reload_page">Reload Current Page</string>
 </resources>
