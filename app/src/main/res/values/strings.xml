@@ -38,16 +38,55 @@
     <string name="settings_telemetry">Telemetry</string>
     <!-- This string is used to label a button that when pressed loads a Web page the
          describes Mozilla's privacy policy -->
-    <string name="settings_privacy">Privacy Policy</string>
+    <string name="settings_privacy">Privacy</string>
+    <!-- This string is used to label a button in the settings dialog that when pressed
+         opens a dialog box that contains settings that an application or Web developer might want to change -->
+    <string name="settings_developer_options">Developer Options</string>
+    <!-- This string is used to label a button in the settings dialog that when pressed
+         opens a dialog box that contains language related settings. -->
+    <string name="settings_language">Language</string>
+    <!-- This string is used to label a radio button in the settings dialog that when pressed
+         changes the app and the voice search language to US English. -->
+    <string name="settings_language_english">English (US)</string>
+    <!-- This string is used to label a radio button in the settings dialog that when pressed
+         changes the app and the voice search language to(Traditional/Zhuyin). -->
+    <string name="settings_language_traditional_chinese">Chinese (Traditional/Zhuyin)</string>
+    <!-- This string is used to label a radio button in the settings dialog that when pressed
+         changes the app and the voice search language to Chinese (Simplified/Pinyin). -->
+    <string name="settings_language_simplified_chinese">Chinese (Simplified/Pinyin)</string>
+    <!-- This string is used to label a radio button in the settings dialog that when pressed
+         changes the app and the voice search language to Japanese. -->
+    <string name="settings_language_japanese">Japanese</string>
+    <!-- This string is used to label a radio button in the settings dialog that when pressed
+         changes the app and the voice search language to French. -->
+    <string name="settings_language_french">French</string>
+    <!-- This string is used to label a radio button in the settings dialog that when pressed
+         changes the app and the voice search language to German. -->
+    <string name="settings_language_german">German</string>
+    <!-- This string is used to label a radio button in the settings dialog that when pressed
+         changes the app and the voice search language to Spanish. -->
+    <string name="settings_language_spanish">Spanish</string>
+    <!-- This string is used to label a radio button in the settings dialog that when pressed
+         changes the app and the voice search language to Korean. -->
+    <string name="settings_language_korean">Korean</string>
+    <!-- This string is used to label a radio button in the settings dialog that when pressed
+         changes the app and the voice search language to Italian. -->
+    <string name="settings_language_italian">Italian</string>
+    <!-- This string is used to label a button in the settings dialog that when pressed
+         opens a dialog box that contains display related settings: window size, display density, etc -->
+    <string name="settings_display">Display</string>
+    <!-- This string is used to label a button in the settings dialog that when pressed
+         opens a dialog box that contains controller related options: pointer color and scroll direction -->
+    <string name="settings_controller_options">Controller Options</string>
+    <!-- This string is displayed in the settings dialog and is used to label an
+         On/Off switch that enables/disables the speech data reporting -->
+    <string name="settings_report_speech_data">Report Speech Data</string>
     <!-- This string is used to label a button that when pressed loads a Web page
          that allows the user file an issue or problem they may have encountered while using the
          application or while visiting a site -->
     <string name="settings_report_issue">Report an issue</string>
     <!-- This string is used in place of 'settings_version' for developer builds -->
     <string name="settings_version_developer">Developer Build</string>
-    <!-- This string is used to label a button in the settings dialog that when pressed
-         opens a dialog box that contains settings that an application or Web developer might want to change -->
-    <string name="settings_developer_options">Developer Options</string>
     <!-- This string is the title of a dialog box shown to the user when a settings
          change requires the application to restart -->
     <string name="restart_dialog_restart">Restart Required</string>
