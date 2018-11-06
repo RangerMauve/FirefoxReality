@@ -3,24 +3,50 @@
     Description:
         This string is used on the virtual keyboard to label the 'Enter` key.
     STRs:
-        1. Click on the URL bar.
+        1. Press the URL bar.
     Expected Result:
-        - Keyboard should open, and you should see the 'Enter' key (stylized in uppercase letters as 'ENTER').
+        1. Keyboard should open, and you should see the 'Enter' key (stylized in uppercase letters as 'ENTER').
     -->
     <string name="keyboard_enter_label">ENTER</string>
+    <!--
+    Description:
+        This string is displayed in the button that means the user accepts the
+        permission requested for in the permission dialog box.
+    STRs:
+        1. Press the URL bar.
+        2. Enter this URL: https://permission.site/
+        3. Press the 'Camera' button.
+    Expected Result:
+        1. A dialog should appear.
+        2. There should be a button with the text, 'Allow'.
+    -->
+    <string name="permission_allow">Allow</string>
+    <!--
+    Description:
+        This string is displayed in the button that means the user rejects the
+        permission requested for in the permission dialog box.
+    STRs:
+        1. Press the URL bar.
+        2. Enter this URL: https://permission.site/
+        3. Press the 'Camera' button.
+    Expected Result:
+        1. A dialog should appear.
+        2. There should be a button with the text, 'Don’t Allow'.
+    -->
+    <string name="permission_reject">Don’t Allow</string>
     <!--
     Description:
         This string will be displayed in a dialog box presented to the user
         when the application needs to request permission to access the device's camera.
         '%1$s' will be replaced at runtime with the website's domain name.
     STRs:
-        1. Click on the URL bar.
+        1. Press the URL bar.
         2. Enter this URL: https://permission.site/
-        3. Click on the 'Camera' button.
+        3. Press the 'Camera' button.
     Expected Result:
-        - A permissions dialog should open asking the question,
-        'Will you allow permission.site to use your camera?', and two buttons,
-        'Allow' and 'Don’t Allow'.
+        1. A permissions dialog should open asking the question,
+           'Will you allow permission.site to use your camera?', and two buttons,
+           'Allow' and 'Don’t Allow'.
     -->
     <string name="permission_camera">Will you allow %1$s to use your camera?</string>
     <!--
@@ -29,13 +55,13 @@
         when the application needs to request permission to access the device's microphone.
         '%1$s' will be replaced at runtime with the website's domain name.
     STRs:
-        1. Click on the URL bar.
+        1. Press the URL bar.
         2. Enter this URL: https://permission.site/
-        3. Click on the 'Microphone' button.
+        3. Press the 'Microphone' button.
     Expected Result:
-        - A permissions dialog should open asking the question,
-        'Will you allow permission.site to use your microphone?', and two buttons,
-        'Allow' and 'Don’t Allow'.
+        1. A permissions dialog should open asking the question,
+           'Will you allow permission.site to use your microphone?', and two buttons,
+           'Allow' and 'Don’t Allow'.
     -->
     <string name="permission_microphone">Will you allow %1$s to use your microphone?</string>
     <!--
@@ -44,13 +70,13 @@
         when the application needs to request permission to access the device's camera and microphone.
         '%1$s' will be replaced at runtime with the website's domain name.
     STRs:
-        1. Click on the URL bar.
+        1. Press the URL bar.
         2. Enter this URL: https://permission.site/
-        3. Click on the 'Camera + Microphone' button.
+        3. Press the 'Camera + Microphone' button.
     Expected Result:
-        - A permissions dialog should open asking the question,
-        'Will you allow permission.site to use your camera and microphone?', and two buttons,
-        'Allow' and 'Don’t Allow'.
+        1. A permissions dialog should open asking the question,
+           'Will you allow permission.site to use your camera and microphone?', and two buttons,
+           'Allow' and 'Don’t Allow'.
     -->
     <string name="permission_camera_and_microphone">Will you allow %1$s to use your camera and microphone?</string>
     <!--
@@ -59,13 +85,13 @@
         when the application needs to request permission to access the device's geographic location.
         '%1$s' will be replaced at runtime with the website's domain name.
     STRs:
-        1. Click on the URL bar.
+        1. Press the URL bar.
         2. Enter this URL: https://permission.site/
-        3. Click on the 'Location' button.
+        3. Press the 'Location' button.
     Expected Result:
-        - A permissions dialog should open asking the question,
-        'Will you allow permission.site to use your location?', and two buttons,
-        'Allow Location Access' and 'Don’t Allow'.
+        1. A permissions dialog should open asking the question,
+           'Will you allow permission.site to use your location?', and two buttons,
+           'Allow Location Access' and 'Don’t Allow'.
     -->
     <string name="permission_geolocation">Will you allow %1$s to access your location?</string>
     <!--
@@ -75,14 +101,14 @@
         push notifications from a particular website (i.e., same origin).
         '%1$s' will be replaced at runtime with the website's domain name.
     STRs:
-        1. Click on the URL bar.
+        1. Press the URL bar.
         2. Enter this URL: https://permission.site/
-        3. Click on the 'Notifications' button.
+        3. Press the 'Notifications' button.
     Expected Result:
-        - A permissions dialog should open asking the question,
-        'Will you allow permission.site to send notifications?', and two visible buttons,
-        'Allow Notifications' and 'Not Now', with a third button that appears upon clicking
-        the down-arrow icon in the 'Not Now' button: 'Never Allow'.
+        1. A permissions dialog should open asking the question,
+           'Will you allow permission.site to send notifications?', and two visible buttons,
+           'Allow Notifications' and 'Not Now', with a third button that appears upon pressing
+           the down-arrow icon in the 'Not Now' button: 'Never Allow'.
     -->
     <string name="permission_notifications">Will you allow %1$s to send notifications?</string>
     <!--
@@ -91,12 +117,12 @@
         needs to request permission to access the device's external storage such as the
         sdcard. '%1$s' will be replaced at runtime with the website's domain name.
     STRs:
-        1. Click on the URL bar.
+        1. Press the URL bar.
         2. Enter this URL: file:///sdcard/
     Expected Result:
-        - A permissions dialog should open asking the question,
-        'Will you allow permission.site to read your external storage?', and two buttons,
-        'Allow' and 'Don’t Allow'.
+        1. A permissions dialog should open asking the question,
+           'Will you allow permission.site to read your external storage?', and two buttons,
+           'Allow' and 'Don’t Allow'.
     -->
     <string name="permission_external_storage_read">Will you allow %1$s to read your external storage?</string>
     <!--
@@ -105,10 +131,10 @@
         needs to request permission to access the device's external storage such as the
         sdcard. '%1$s' will be replaced at runtime with the website's domain name.
     STRs:
-        1. Click on the URL bar.
+        1. Press the URL bar.
         2. Enter this URL: file:///sdcard/
     Expected Result:
-        - A dialog should open asking 'Will you allow permission.site to store data in persistent storage?'
+        1. A dialog should open asking 'Will you allow permission.site to store data in persistent storage?'
     -->
     <string name="permission_persistent_storage">Will you allow %1$s to store data in persistent storage?</string>
     <!--
@@ -117,9 +143,9 @@
         the user can know which version of the application they are currently running.
         '%1$s' will be replaced at runtime with the application version number.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
+        1. Press the 'Settings' button in the browser's tray of menu options.
     Expected Result:
-        - Under the app logo, the following string should show: 'version 1.1'
+        1. Under the app logo, the following string should show: 'version 1.1'
     -->
     <string name="settings_version">version %1$s</string>
     <!--
@@ -128,9 +154,9 @@
         On/Off switch which toggles whether an application crash is reported without first
         prompting the user.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
+        1. Press the 'Settings' button in the browser's tray of menu options.
     Expected Result:
-        - An option should appear with the text, 'Crash Reporting'.
+        1. An option should appear with the text, 'Crash Reporting'.
     -->
     <string name="settings_crash_reporting">Crash Reporting</string>
     <!--
@@ -138,9 +164,9 @@
         This string is displayed in the Settings dialog box and is used to label an
         On/Off switch which toggles whether browser-level Telemetry is reported back to Mozilla.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
+        1. Press the 'Settings' button in the browser's tray of menu options.
     Expected Result:
-        - An option should appear with the text, 'Telemetry'.
+        1. An option should appear with the text, 'Telemetry'.
     -->
     <string name="settings_telemetry">Telemetry</string>
     <!--
@@ -148,9 +174,9 @@
         This string is used to label a button that, when pressed, loads a website that
         describes Mozilla's Privacy Policy.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
+        1. Press the 'Settings' button in the browser's tray of menu options.
     Expected Result:
-        - An option should appear with the text, 'Privacy Policy'.
+        1. An option should appear with the text, 'Privacy Policy'.
     -->
     <string name="settings_privacy">Privacy Policy</string>
     <!--
@@ -158,9 +184,9 @@
         This string is used to label a button in the 'Settings' dialog window that, when pressed,
         opens a dialog box that contains settings that an application or Web developer might want to change.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
+        1. Press the 'Settings' button in the browser's tray of menu options.
     Expected Result:
-        - Under the version text the following text should show: 'Developer Build'
+        1. Under the version text the following text should show: 'Developer Build'
     -->
     <string name="settings_developer_options">Developer Options</string>
     <!--
@@ -168,9 +194,9 @@
         This string is used to label a button in the 'Settings' dialog window that, when pressed,
         opens a dialog box that contains language-related settings.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
+        1. Press the 'Settings' button in the browser's tray of menu options.
     Expected Result:
-        - An option should appear with the text, 'Language'.
+        1. An option should appear with the text, 'Language'.
     -->
     <string name="settings_language">Language</string>
     <!--
@@ -178,10 +204,10 @@
         This string is used to label a radio button in the 'Settings' Language dialog that, when pressed,
         changes the app and the language of the speech-recognition-based search to 'English (US)'.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Language' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Language' button.
     Expected Result:
-        - Several radio buttons should show, one of which is 'English (US)'.
+        1. Several radio buttons should show, one of which is 'English (US)'.
     -->
     <string name="settings_language_english">English (US)</string>
     <!--
@@ -189,10 +215,10 @@
         This string is used to label a radio button in the settings language dialog that, when pressed,
         changes the app and the language of the speech-recognition-based search to 'Chinese (Traditional/Zhuyin)'.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Language' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Language' button.
     Expected Result:
-        - Several radio buttons should show, one of which is 'Chinese (Traditional/Zhuyin)'.
+        1. Several radio buttons should show, one of which is 'Chinese (Traditional/Zhuyin)'.
     -->
     <string name="settings_language_traditional_chinese">Chinese (Traditional/Zhuyin)</string>
     <!--
@@ -200,10 +226,10 @@
         This string is used to label a radio button in the settings language dialog that, when pressed,
         changes the app and the language of the speech-recognition-based search to 'Chinese (Simplified/Pinyin)'.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Language' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Language' button.
     Expected Result:
-        - Several radio buttons should show, one of which is 'Chinese (Simplified/Pinyin)'.
+        1. Several radio buttons should show, one of which is 'Chinese (Simplified/Pinyin)'.
     -->
     <string name="settings_language_simplified_chinese">Chinese (Simplified/Pinyin)</string>
     <!--
@@ -211,10 +237,10 @@
         This string is used to label a radio button in the settings language dialog that, when pressed,
         changes the app and the language of the speech-recognition-based search to 'Japanese'.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Language' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Language' button.
     Expected Result:
-        - Several radio buttons should show, one of which is 'Japanese'.
+        1. Several radio buttons should show, one of which is 'Japanese'.
     -->
     <string name="settings_language_japanese">Japanese</string>
     <!--
@@ -222,10 +248,10 @@
         This string is used to label a radio button in the settings language dialog that, when pressed,
         changes the app and the language of the speech-recognition-based search to 'French'.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Language' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Language' button.
     Expected Result:
-        - Several radio buttons should show, one of which is 'French'.
+        1. Several radio buttons should show, one of which is 'French'.
     -->
     <string name="settings_language_french">French</string>
     <!--
@@ -233,10 +259,10 @@
         This string is used to label a radio button in the settings language dialog that, when pressed,
         changes the app and the language of the speech-recognition-based search to 'German'.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Language' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Language' button.
     Expected Result:
-        - Several radio buttons should show, one of which is 'German'.
+        1. Several radio buttons should show, one of which is 'German'.
     -->
     <string name="settings_language_german">German</string>
     <!--
@@ -244,10 +270,10 @@
         This string is used to label a radio button in the settings language dialog that, when pressed,
         changes the app and the language of the speech-recognition-based search to 'Spanish'.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Language' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Language' button.
     Expected Result:
-        - Several radio buttons should show, one of which is 'Spanish'.
+        1. Several radio buttons should show, one of which is 'Spanish'.
     -->
     <string name="settings_language_spanish">Spanish</string>
     <!--
@@ -255,10 +281,10 @@
         This string is used to label a radio button in the settings language dialog that, when pressed,
         changes the app and the language of the speech-recognition-based search to 'Korean'.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Language' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Language' button.
     Expected Result:
-        - Several radio buttons should show, one of which is 'Korean'.
+        1. Several radio buttons should show, one of which is 'Korean'.
     -->
     <string name="settings_language_korean">Korean</string>
     <!--
@@ -266,10 +292,10 @@
         This string is used to label a radio button in the settings language dialog that, when pressed,
         changes the app and the language of the speech-recognition-based search to 'Italian'.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Language' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Language' button.
     Expected Result:
-        - Several radio buttons should show, one of which is 'Italian'.
+        1. Several radio buttons should show, one of which is 'Italian'.
     -->
     <string name="settings_language_italian">Italian</string>
     <!--
@@ -277,9 +303,9 @@
         This string is used to label a button in the 'Settings' dialog window that, when pressed,
         opens a dialog box that contains display-related settings: window size, pixel density, etc.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
+        1. Press the 'Settings' button in the browser's tray of menu options.
     Expected Result:
-        - An option should appear with the text, 'Display'.
+        1. An option should appear with the text, 'Display'.
     -->
     <string name="settings_display">Display</string>
     <!--
@@ -287,9 +313,9 @@
         This string is used to label a button in the 'Settings' dialog window that, when pressed,
         opens a dialog box that contains controller-related options: pointer color and scroll direction.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
+        1. Press the 'Settings' button in the browser's tray of menu options.
     Expected Result:
-        - An option should appear with the text, 'Controller Options'.
+        1. An option should appear with the text, 'Controller Options'.
     -->
     <string name="settings_controller_options">Controller Options</string>
     <!--
@@ -297,9 +323,9 @@
         This string is displayed in the 'Settings' dialog window and, is used to label an,
         On/Off switch that enables/disables the speech-data reporting.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
+        1. Press the 'Settings' button in the browser's tray of menu options.
     Expected Result:
-        - An option should appear with the text, 'Report Speech Data'.
+        1. An option should appear with the text, 'Report Speech Data'.
     -->
     <string name="settings_report_speech_data">Report Speech Data</string>
     <!--
@@ -308,17 +334,17 @@
         that allows the user file an issue or problem they may have encountered while using the
         application or while visiting a site.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
+        1. Press the 'Settings' button in the browser's tray of menu options.
     Expected Result:
-        - An option should appear with the text, 'Report an issue'.
+        1. An option should appear with the text, 'Report an Issue'.
     -->
-    <string name="settings_report_issue">Report an issue</string>
+    <string name="settings_report_issue">Report an Issue</string>
     <!--
     Description:
         This string is used in place of the 'settings_version' string (e.g., `version 1.1`) when the user is running
         a developer-build version of the app.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
+        1. Press the 'Settings' button in the browser's tray of menu options.
     Expected Result:
         - Under the version number there should be text saying, 'Developer Build'.
     -->
@@ -328,11 +354,11 @@
         This string is the title of a dialog box shown to the user when a settings
         change requires the application to restart
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Developer Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Developer Options' button.
         3. Enable the 'Environment Override' setting.
     Expected Result:
-        - A dialog should appear with the text, 'Restart Required'.
+        1. A dialog should appear with the text, 'Restart Required'.
     -->
     <string name="restart_dialog_restart">Restart Required</string>
     <!--
@@ -340,12 +366,12 @@
         This string is the text displayed in the restart dialog box explaining why the
         restart is required. '%1$s' will be replaced at runtime with the website's domain name.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Developer Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Developer Options' button.
         3. Enable the 'Environment Override' setting.
     Expected Result:
-        - A dialog should appear with the text,
-          'You must restart Firefox Reality in order to complete changes. Would you like to do that now?'
+        1. A dialog should appear with the text,
+           'You must restart Firefox Reality in order to complete changes. Would you like to do that now?'
     -->
     <string name="restart_dialog_text">You must restart %1$s in order to complete changes. Would you like to do that now?</string>
     <!--
@@ -353,22 +379,22 @@
         This string is used to label the button the user presses to restart the
         application in the restart dialog.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Developer Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Developer Options' button.
         3. Enable the 'Environment Override' setting.
     Expected Result:
-        - A dialog should appear with the text, 'Restart Now'.
+        1. A dialog should appear with the text, 'Restart Now'.
     -->
     <string name="restart_now_dialog_button">Restart Now</string>
     <!--
     Description:
         This string is used to label the button the user presses to restart the postpone the app restart.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Developer Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Developer Options' button.
         3. Enable the 'Environment Override' setting.
     Expected Result:
-        - A dialog should appear with the text, 'Restart Later'.
+        1. A dialog should appear with this text: 'Restart Later'
     -->
     <string name="restart_later_dialog_button">Restart Later</string>
     <!--
@@ -376,10 +402,10 @@
         This string labels an On/Off switch in the 'Developer Options' dialog
         and is used to toggle remote debugging of website content in the application.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Developer Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Developer Options' button.
     Expected Result:
-        - A dialog should appear with a field labeled with the text, 'Enable Remote Debugging'.
+        1. A dialog should appear with a field labeled with the text, 'Enable Remote Debugging'.
     -->
     <string name="developer_options_remote_debugging">Enable Remote Debugging</string>
     <!--
@@ -387,10 +413,10 @@
         This string labels an On/Off switch in the 'Developer Options' dialog
         and is used to toggle redirecting JavaScript Console output to the Android Logcat (i.e., `adb logcat`).
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Developer Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Developer Options' button.
     Expected Result:
-        - A dialog should appear with a field labeled with the text, 'Redirect Console to Logcat'.
+        1. A dialog should appear with a field labeled with the text, 'Redirect Console to Logcat'.
     -->
     <string name="developer_options_show_console">Redirect Console to Logcat</string>
     <!--
@@ -398,10 +424,10 @@
         This string labels an On/Off switch in the developer options dialog
         and is used to .
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Developer Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Developer Options' button.
     Expected Result:
-        - A dialog should appear with a field labeled with the text, 'Enable Environment Override'.
+        1. A dialog should appear with a field labeled with the text, 'Enable Environment Override'.
     -->
     <string name="developer_options_env_override">Enable Environment Override</string>
     <!--
@@ -411,10 +437,10 @@
         Multiprocessing: the running of two or more programs or sequences of instructions
         simultaneously by a computer with more than one central processor.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Developer Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Developer Options' button.
     Expected Result:
-        - A dialog should appear with a field labeled with the text, 'Enable Multiprocess'.
+        1. A dialog should appear with a field labeled with the text, 'Enable Multiprocess'.
     -->
     <string name="developer_options_multiprocess">Enable Multiprocess</string>
     <!--
@@ -422,10 +448,10 @@
         The string labels an On/Off switch in the developer options dialog and is used to toggle
         enabling servo.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Developer Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Developer Options' button.
     Expected Result:
-        - A dialog should appear with a field labeled with the text, 'Enable Servo'.
+        1. A dialog should appear with a field labeled with the text, 'Enable Servo'.
     -->
     <string name="developer_options_servo">Enable Servo</string>
     <!--
@@ -433,10 +459,10 @@
         This string is used to label a numerical-entry field where the user may set a new value to
         use for the display density.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Display' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Display' button.
     Expected Result:
-        - A dialog should appear with fields labeled with the text, 'Display Density:'.
+        1. A dialog should appear with fields labeled with the text, 'Display Density:'.
     -->
     <string name="developer_options_display_density">Display Density:</string>
     <!--
@@ -444,10 +470,10 @@
         This string is used to label two integer-entry fields where the default width and height of
         the browser window may be set.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Display' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Display' button.
     Expected Result:
-        - A dialog should appear with fields labeled with the text, 'Window Size:'.
+        1. A dialog should appear with fields labeled with the text, 'Window Size:'.
     -->
     <string name="developer_options_window_size">Window Size:</string>
     <!--
@@ -456,10 +482,10 @@
         'Developer Options' dialog. Pressing this button switches the text to
         editable-text fields so their values may be changed.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Display' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Display' button.
     Expected Result:
-        - A dialog should show.
+        1. A dialog should appear.
         - all the editable options edit buttons should have the text 'Edit'.
     -->
     <string name="developer_options_edit">Edit</string>
@@ -468,11 +494,11 @@
         This string is used to label the 'Edit' button once it has been pressed by the user. It
         indicates that, when the button is pressed, the user's edits will be saved.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Display' button.
-        - Click on any edit button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Display' button.
+        3. Press any edit button.
     Expected Result:
-        - The edit button text should change to 'Save'.
+        1. The edit button text should change to 'Save'.
     -->
     <string name="developer_options_save">Save</string>
     <!--
@@ -480,11 +506,11 @@
         This string is used to label a numerical entry field where the user may enter a new value
         for the virtual displays Dots Per Inch (DPI).
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Display' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Display' button.
     Expected Result:
-        - A dialog should show.
-        - The third option description should be 'Display DPI:'.
+        1. A dialog should appear.
+        2. The third option description should be 'Display DPI:'.
     -->
     <string name="developer_options_display_dpi">Display DPI:</string>
     <!--
@@ -492,11 +518,11 @@
         This string is used to label two integer entry fields that will allow the user to adjust
         the maximum window size in the X and Y dimensions.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Display' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Display' button.
     Expected Result:
-        - A dialog should show.
-        - The fifth option description should be 'Max. Window Size:'.
+        1. A dialog should appear.
+        2. The fifth option description should be 'Max. Window Size:'.
     -->
     <string name="developer_options_max_window_size">Max. Window Size:</string>
     <!--
@@ -504,44 +530,44 @@
         This string is used to label radio buttons for setting Multi-Sample Anti-Aliasing (MSAA) in
         VR Immersive Mode.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Display' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Display' button.
     Expected Result:
-        - A dialog should show.
-        - The second option description should be 'MSAA'.
+        1. A dialog should appear.
+        2. The second option description should be 'MSAA'.
     -->
     <string name="developer_options_msaa">MSAA</string>
     <!--
     Description:
         This string is used to label the MSAA radio button that disables MSAA in Immersive Mode.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Display' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Display' button.
     Expected Result:
-        - A dialog should show.
-        - The first radio button option in the MSAA setting should be 'Disabled'.
+        1. A dialog should appear.
+        3. The first radio button option in the MSAA setting should be 'Disabled'.
     -->
     <string name="developer_options_msaa_disabled">Disabled</string>
     <!--
     Description:
         This string is used to label the MSAA radio button that enables two times MSAA in Immersive Mode.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Display' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Display' button.
     Expected Result:
-        - A dialog should show.
-        - The second radio button option in the MSAA setting should be '2x'.
+        1. A dialog should appear.
+        3. The second radio button option in the MSAA setting should be '2x'.
     -->
     <string name="developer_options_msaa_2">2x</string>
     <!--
     Description:
         This string is used to label the MSAA radio button that enables two times MSAA in Immersive Mode.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Display' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Display' button.
     Expected Result:
-        - A dialog should show.
-        - The third radio button option in the MSAA setting should be '4x'.
+        1. A dialog should appear.
+        4. The third radio button option in the MSAA setting should be '4x'.
     -->
     <string name="developer_options_msaa_4">4x</string>
     <!--
@@ -549,11 +575,11 @@
         This string is used to label a set of radio buttons that allow the user to change the
         user-agent (UA) string of the browser.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Display' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Display' button.
     Expected Result:
-        - A dialog should show.
-        - The first option description should be 'User-Agent Mode'.
+        1. A dialog should appear.
+        2. The first option description should be 'User-Agent Mode'.
     -->
     <string name="developer_options_ua_mode">User-Agent Mode</string>
     <!--
@@ -561,11 +587,11 @@
         This string is used to label the desktop user-agent radio button of the 'User-Agent Mode'
         settings option.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Display' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Display' button.
     Expected Result:
-        - A dialog should show.
-        - The second radio button option in the User-Agent Mode setting should be 'Desktop'.
+        1. A dialog should appear.
+        2. The second radio button option in the 'User-Agent Mode' setting should be 'Desktop'.
     -->
     <string name="developer_options_ua_desktop">Desktop</string>
     <!--
@@ -573,11 +599,11 @@
         This string is used to label the desktop user-agent radio button of the 'User-Agent Mode'
         settings option.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Display' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Display' button.
     Expected Result:
-        - A dialog should show.
-        - The first radio button option in the User-Agent Mode setting should be 'Mobile'.
+        1. A dialog should appear.
+        2. The first radio button option in the 'User-Agent Mode' setting should be 'Mobile'.
     -->
     <string name="developer_options_ua_mobile">Mobile</string>
     <!--
@@ -585,11 +611,11 @@
         This string is used to label the desktop user-agent radio button of the 'User-Agent Mode'
         settings option.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Display' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Display' button.
     Expected Result:
-        - A dialog should show.
-        - The third radio button option in the User-Agent Mode setting should be 'VR'.
+        1. A dialog should appear.
+        2. The third radio button option in the 'User-Agent Mode' setting should be 'VR'.
     -->
     <string name="developer_options_ua_vr">VR</string>
     <!--
@@ -597,22 +623,22 @@
         This string describes what the 'Reset' button in the developer options does which is
         restore all the developer settings to their default value.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Display' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Display' button.
     Expected Result:
-        - A dialog should show.
-        - The last option description should be 'Reset Developer Settings'.
+        1. A dialog should appear.
+        2. The last option description should be 'Reset Developer Settings'.
     -->
     <string name="developer_options_reset">Reset Developer Settings</string>
     <!--
     Description:
         This string labels the 'Reset' button that restores the default developer settings values.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Display' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Display' button.
     Expected Result:
-        - A dialog should show.
-        - The last option button text should be 'Reset'.
+        1. A dialog should appear.
+        2. The last option button text should be 'Reset'.
     -->
     <string name="developer_options_reset_button">Reset</string>
     <!--
@@ -620,88 +646,88 @@
         This string describes the radio buttons used to select the user's background environment
         (seen while not in Immersive Mode).
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Developer Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Developer Options' button.
     Expected Result:
-        - A dialog should show.
-        - The fifth option description should be 'Environment'.
+        1. A dialog should appear.
+        2. The fifth option description should be 'Environment'.
     -->
     <string name="developer_options_environments">Environment</string>
     <!--
     Description:
+        This string labels the radio button that selects the 'Void' environment.
+        The 'Void' environment is an empty space that surrounds the user in empty, black space.
+    STRs:
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Developer Options' button.
+    Expected Result:
+        1. A dialog should appear.
+        3. The first radio button option in the 'Environment' setting should be 'Void'.
+    -->
+    <string name="developer_options_env_void">Void</string>
+    <!--
+    Description:
         This string labels the radio button that selects the 'Cave' environment.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Developer Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Developer Options' button.
     Expected Result:
-        - A dialog should show.
-        - The second radio button option in the Environment setting should be 'Cave'.
+        1. A dialog should appear.
+        2. The second radio button option in the 'Environment' setting should be 'Cave'.
     -->
     <string name="developer_options_env_cave">Cave</string>
     <!--
     Description:
         This string labels the radio button that selects the 'Meadow' environment.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Developer Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Developer Options' button.
     Expected Result:
-        - A dialog should show.
-        - The third radio button option in the Environment setting should be 'Meadow'.
+        1. A dialog should appear.
+        2. The third radio button option in the 'Environment' setting should be 'Meadow'.
     -->
     <string name="developer_options_env_meadow">Meadow</string>
     <!--
     Description:
-        This string labels the radio button that selects the 'Void' environment.
-        The 'Void' environment is an empty space that surrounds the user in empty, black space.
-    STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Developer Options' button.
-    Expected Result:
-        - A dialog should show.
-        - The first radio button option in the Environment setting should be 'Void'.
-    -->
-    <string name="developer_options_env_void">Void</string>
-    <!--
-    Description:
         This string describes the radio buttons used to select the pointer color.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Controller Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Controller Options' button.
     Expected Result:
-        - A dialog should show.
-        - The first option description should be 'Pointer Color'.
+        1. A dialog should appear.
+        2. The first option description should be 'Pointer Color'.
     -->
     <string name="developer_options_pointer_color">Pointer Color</string>
     <!--
     Description:
         This string labels the radio button that sets the pointer color to purple.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Controller Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Controller Options' button.
     Expected Result:
-        - A dialog should show.
-        - The second radio button option in the Environment setting should be 'Purple'.
+        1. A dialog should appear.
+        2. The second radio button option in the Environment setting should be 'Purple'.
     -->
     <string name="developer_options_pointer_purple">Purple</string>
     <!--
     Description:
         This string labels the radio button that sets the pointer color to white.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Controller Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Controller Options' button.
     Expected Result:
-        - A dialog should show.
-        - The second radio button option in the Environment setting should be 'White'.
+        1. A dialog should appear.
+        2. The second radio button option in the Environment setting should be 'White'.
     -->
     <string name="developer_options_pointer_white">White</string>
     <!--
     Description:
         This string is displayed below the On/Off switch to indicate a switch's current state as 'On'.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Controller Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Controller Options' button.
     Expected Result:
-        - A dialog should show.
+        1. A dialog should appear.
         - For any enabled switch option the color should be green and the text should be 'On'.
     -->
     <string name="on">On</string>
@@ -709,123 +735,128 @@
     Description:
         This string is displayed below the On/Off switch to indicate a switch's current state as 'Off'.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Controller Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Controller Options' button.
     Expected Result:
-        - A dialog should show.
+        1. A dialog should appear.
         - For any enabled switch option the color should be red and the text should be 'Off'.
     -->
     <string name="off">Off</string>
     <!--
     Description:
         This string is displayed in the voice-search dialog box that is show to the user when they press the
-        button used to initiate voice search.
+        button used to initiate Voice Search.
     STRs:
-        - Click on the microphone icon in the URL bar.
-        - Accept the permission if requested.
+        1. Press the microphone icon in the URL bar.
+        2. If prompted with a dialog box, accept the permission.
     Expected Result:
-        - A voice search dialog should show.
-        - The main text in the dialog should be 'What would you like to search on the Web?'
+        1. A Voice Search dialog should show.
+        2. This main text should appear: 'What would you like to search on the Web?'
     -->
     <string name="voice_search_start">What would you like to search on the Web?</string>
     <!--
     Description:
         This string is displayed in the voice-search dialog box that is show to the user when they press the
-        button used to initiate voice search.
+        button used to initiate Voice Search.
     STRs:
-        - Click on the microphone icon in the URL bar.
-        - Accept the permission if requested.
+        1. Press the microphone icon in the URL bar.
+        2. If prompted with a dialog box, accept the permission.
     Expected Result:
-        - A voice search dialog should show.
-        - The secondary text in the dialog should be 'Example: Please say, "360 videos, weather, news…"'.
+        1. A Voice Search dialog should show.
+        2. This secondary text should appear: 'Example: Please say, ”360 videos, weather, news…”'
     -->
-    <string name="voice_search_example">Example: Please say, \"360 videos, weather, news…\"</string>
+    <string name="voice_search_example">Example: Please say, “360 videos, weather, news…”</string>
     <!--
     Description:
-        This string is displayed in a dialog box show to the user while the voice search is being
+        This string is displayed in a dialog box show to the user while the Voice Search is being
         performed. It indicates that the search query is running and they should wait for the result.
     STRs:
-        - Click on the microphone icon in the URL bar.
-        - Accept the permission if requested.
+        1. Press the microphone icon in the URL bar.
+        2. If prompted with a dialog box, accept the permission.
     Expected Result:
-        - A voice search dialog should show.
-        - Search anything using the voice input.
-        - The main text in the dialog should be 'Searching…'.
+        1. A Voice Search dialog should show.
+        2. Search anything using the voice input.
+        3. The main text in the dialog should be 'Searching…' while the search query is being processed.
     -->
     <string name="voice_search_decoding">Searching…</string>
     <!--
     Description:
-        This string is displayed in a dialog box show to the user while the voice search is being
+        This string is displayed in a dialog box show to the user while the Voice Search is being
         performed. It indicates that the search query is running and they should wait for the result.
     STRs:
-        - Click on the microphone icon in the URL bar.
-        - Accept the permission if requested.
+        1. Press the microphone icon in the URL bar.
+        2. Accept the permission if requested.
     Expected Result:
-        - A voice search dialog should show.
-        - Make the voice search fail (any sound that is not a word will work).
-        - The main text in the dialog should be 'Sorry! I could not understand.'
+        1. A Voice Search dialog should show.
+        2. Make the Voice Search fail (any sound that is not a word will work).
+        3. The main text in the dialog should read, 'Sorry! I could not understand.'
     -->
     <string name="voice_search_error">Sorry! I could not understand.</string>
     <!--
     Description:
-        This string is displayed in a dialog box after a failed voice search and the system is prompting the
-        user to try the voice search again.
+        This string is displayed in a dialog box after a failed Voice Search and the system is prompting the
+        user to try the Voice Search again.
     STRs:
-        - Click on the microphone icon in the URL bar.
-        - Accept the permission if requested.
+        1. Press the microphone icon in the URL bar.
+        2. If prompted with a dialog box, accept the permission.
     Expected Result:
-        - A voice search dialog should show.
-        - Make the voice search fail (any sound that is not a word will work).
-        - The secondary text in the dialog should be 'Please try again.'
+        1. A Voice Search dialog should show.
+        2. Make the Voice Search fail (any sound that is not a word will work).
+        3. The secondary text in the dialog should read, 'Please try again.'
     -->
     <string name="voice_search_try_again">Please try again.</string>
     <!--
     Description:
         This string is displayed in a dialog after the user has declined permission to use the
-        device's microphone. It explains why voice search is not working.
+        device's microphone. It explains why Voice Search is not working.
     STRs:
-        - Click on the microphone icon in the URL bar.
+        - Press the microphone icon in the URL bar.
         - Reject the permission if requested.
     Expected Result:
-        - A voice search dialog should show.
-        - The main text in the dialog should be 'Please allow microphone access to use the voice search.'
+        1. A Voice Search dialog should show.
+        2. The main text in the dialog should read, 'Please allow microphone access to use the Voice Search.'
     -->
-    <string name="voice_search_permission_after_decline">Please allow microphone access to use the voice search.</string>
+    <string name="voice_search_permission_after_decline">Please allow microphone access to use the Voice Search.</string>
     <!--
     Description:
         This string is displayed in the URL bar when it is empty. It informs the user that they
         may use the URL bar to search the Web or enter a Web address.
     STRs:
-        - Open the app.
+        1. Open the app.
+        2. Look down, and look at the URL bar.
     Expected Result:
-        - The placeholder text of the URL bar (i.e., when the URL bar does not contain any user-inputted text)
-          should be 'Search the Web or enter address'.
+        2. The placeholder text of the URL bar (i.e., when the URL bar does not contain any user-inputted text)
+           should be 'Search the Web or enter address'.
     -->
     <string name="search_placeholder">Search the Web or enter address</string>
     <!--
     Description:
         This string labels a button that is used to cancel an action.
+        This appears in such contexts as dialog boxes, `<select>` menus, etc.
     STRs:
-        1. Enter this URL: https://mzl.la/2MGlwdI
-        2. Click the link titled, 'Drop-Down Select Fields' (#25)
+        1. Press the URL bar.
+        2. Enter this URL: https://mzl.la/2F7nSQ6
     Expected Result:
-        - A new page should load.
-        - Click on the multiple selections test.
-        - A dialog should show.
-        - There should a button at the bottom of the dialog with the text 'Cancel'.
+        1. A page should load, and there should be various form test cases.
+        2. Appearing next to the 'Select box allowing multiple selections:' label, there is a menu that contains a list of fruits (i.e., the `<select multiple>` field).
+        3. Press anywhere inside the that menu.
+        4. A dialog should appear.
+        5. There should a button at the bottom of the dialog with the text, 'Cancel'.
     -->
     <string name="cancel_button">Cancel</string>
     <!--
     Description:
         This string labels a button that is used to approve an action.
+        This appears in such contexts as dialog boxes, `<select>` menus, etc.
     STRs:
-        1. Enter this URL: https://mzl.la/2MGlwdI
-        2. Click the link titled, 'Drop-Down Select Fields' (#25)
+        1. Press the URL bar.
+        2. Enter this URL: https://mzl.la/2F7nSQ6
     Expected Result:
-        - A new page should load.
-        - Click on the multiple selections test.
-        - A dialog should show.
-        - There should a button at the bottom of the dialog with the text 'OK'.
+        1. A page should load, and there should be various form test cases.
+        2. Appearing next to the 'Select box allowing multiple selections:' label, there is a menu that contains a list of fruits (i.e., the `<select multiple>` field).
+        3. Press anywhere inside the that menu.
+        4. A dialog should appear.
+        5. There should a button at the bottom of the dialog with the text, 'OK'.
     -->
     <string name="ok_button">OK</string>
     <!--
@@ -841,14 +872,14 @@
     Description:
         This string is displayed in a dialog after an application crash.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Developer Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Developer Options' button.
         3. Enable the 'Multiprocess' option (i.e., the 'On' text is visible).
         4. Exit the 'Developer Options' and the 'Settings' dialog.
         5. Enter this URL: about:crashcontent
     Expected Result:
-        - A dialog should show
-        - The dialog title should be 'We had an issue and crashed'.
+        1. A dialog should appear.
+        2. The dialog title should be 'We had an issue and crashed'.
     -->
     <string name="crash_dialog_heading">We had an issue and crashed</string>
     <!--
@@ -856,13 +887,13 @@
         This string explains why Mozilla would like the user to allow the crash data to be uploaded.
         '%1$s' will be replaced at runtime with the website's domain name.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Developer Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Developer Options' button.
         3. Enable the 'Multiprocess' option (i.e., the 'On' text is visible).
         4. Exit the 'Developer Options' and the 'Settings' dialog.
         5. Enter this URL: about:crashcontent
     Expected Result:
-        - A dialog should appear with the text, 'Please help Mozilla improve %1$s by sending your crash data.'
+        1. A dialog should appear with this text: 'Please help Mozilla improve %1$s by sending your crash data.'
     -->
     <string name="crash_dialog_message">Please help Mozilla improve %1$s by sending your crash data.</string>
     <!--
@@ -870,14 +901,14 @@
         This string labels a checkbox in the crash dialog box. When checked, the user will no longer
         be prompted for permission to upload crash data after an application crash.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Developer Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Developer Options' button.
         3. Enable the 'Multiprocess' option (i.e., the 'On' text is visible).
         4. Exit the 'Developer Options' and the 'Settings' dialog.
         5. Enter this URL: about:crashcontent
     Expected Result:
-        - A dialog should show
-        - The checkbox text should be 'Always send data without asking'.
+        1. A dialog should appear.
+        2. A checkbox should appear, labeled next to it with this text: 'Always send data without asking'
     -->
     <string name="crash_dialog_send_data">Always send data without asking</string>
     <!--
@@ -885,47 +916,48 @@
         This string labels a button that, when pressed, allows the user to learn more about the
         currently open dialog.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Developer Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Developer Options' button.
         3. Enable the 'Multiprocess' option (i.e., the 'On' text is visible).
         4. Exit the 'Developer Options' and the 'Settings' dialog.
         5. Enter this URL: about:crashcontent
     Expected Result:
-        - A dialog should show
-        - The should be a button at the bottom of the dialog with the text 'Learn More'.
+        1. A dialog should appear.
+        2. The should be a button at the bottom of the dialog with the text 'Learn More'.
     -->
     <string name="learn_more_button">Learn More</string>
     <!--
     Description:
         This string labels a button that, when pressed, prevents browser-level crash data from being sent to Mozilla.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Developer Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Developer Options' button.
         3. Enable the 'Multiprocess' option (i.e., the 'On' text is visible).
         4. Exit the 'Developer Options' and the 'Settings' dialog.
         5. Enter this URL: about:crashcontent
     Expected Result:
-        - A dialog should show
-        - The should be a button at the bottom of the dialog with the text 'Do Not Send'.
+        1. A dialog should appear.
+        2. The should be a button at the bottom of the dialog with the text 'Do Not Send'.
     -->
     <string name="do_not_sent_button">Do Not Send</string>
     <!--
     Description:
-        This string labels a button that when clicked allows the crash data to be sent to Mozilla.
+        This string labels a button that, when pressed, allows the crash data to be sent to Mozilla.
     STRs:
-        1. Click on the 'Settings' button in the browser's tray of menu options.
-        2. Click on the 'Developer Options' button.
+        1. Press the 'Settings' button in the browser's tray of menu options.
+        2. Press the 'Developer Options' button.
         3. Enable the 'Multiprocess' option (i.e., the 'On' text is visible).
         4. Exit the 'Developer Options' and the 'Settings' dialog.
         5. Enter this URL: about:crashcontent
     Expected Result:
-        - A dialog should show
-        - The should be a button at the bottom of the dialog with the text 'Send Data'.
+        1. A dialog should appear.
+        2. The should be a button at the bottom of the dialog with the text 'Send Data'.
     -->
     <string name="send_data_button">Send Data</string>
     <!--
     Description:
-        This string labels the radio button that selects the 'Normal' background Brightness mode.
+        This string appears in the tooltip for the button to change the 'Brightness'
+        (i.e., the brightness level of the background environment), in particular when playing a video.
     STRs:
         - N/A
     Expected Result:
@@ -934,7 +966,7 @@
     <string name="brightness_mode_tooltip">Brightness</string>
     <!--
     Description:
-        This string labels the radio button that selects the 'Normal' background Brightness mode.
+        This string labels the radio option that selects the 'Normal' background in the 'Brightness' mode.
     STRs:
         - N/A
     Expected Result:
@@ -943,7 +975,7 @@
     <string name="brightness_mode_normal">Normal</string>
     <!--
     Description:
-        This string labels the radio button that selects the 'Dark' background Brightness mode.
+        This string labels the radio option that selects the 'Dark' background in the 'Brightness' mode.
     STRs:
         - N/A
     Expected Result:
@@ -952,7 +984,7 @@
     <string name="brightness_mode_dark">Dark</string>
     <!--
     Description:
-        This string labels the radio button that selects the 'Void' background Brightness mode.
+        This string labels the radio option that selects the 'Void' background in the 'Brightness' mode.
     STRs:
         - N/A
     Expected Result:
@@ -972,11 +1004,11 @@
     Description:
         This string is displayed when selecting a video playback mode.
     STRs:
-        2. Enter this URL: https://youtube.com
-        - Play any video.
-        - Make the video play in full screen.
-        - A video playback control bar should show under the browser window.
-        - Click on the video projection icon (glasses)
+        1. Enter this URL: https://youtube.com
+        2. Choose any video to play.
+        3. Make the video play in fullscreen mode.
+        4. A video-playback controls bar should appear under the browser window.
+        5. Press the video projection icon (glasses).
     Expected Result:
         - First item in the list should be "3D Side by Side"
     -->
@@ -985,37 +1017,37 @@
     Description:
         This string is displayed when selecting a video playback mode.
     STRs:
-        2. Enter this URL: https://youtube.com
-        - Play any video.
-        - Make the video play in full screen.
-        - A video playback control bar should show under the browser window.
-        - Click on the video projection icon (glasses)
+        1. Enter this URL: https://youtube.com
+        2. Choose any video to play.
+        3. Make the video play in fullscreen mode.
+        4. A video-playback controls bar should appear under the browser window.
+        5. Press the video projection icon (glasses).
     Expected Result:
-        - Second item in the list should be "360"
+        - Second item in the list should be '360'.
     -->
     <string name="video_mode_360">360</string>
     <!--
     Description:
         This string is displayed when selecting a video playback mode.
     STRs:
-        2. Enter this URL: https://youtube.com
-        - Play any video.
-        - Make the video play in full screen.
-        - A video playback control bar should show under the browser window.
-        - Click on the video projection icon (glasses)
+        1. Enter this URL: https://youtube.com
+        2. Choose any video to play.
+        3. Make the video play in fullscreen mode.
+        4. A video-playback controls bar should appear under the browser window.
+        5. Press the video projection icon (glasses).
     Expected Result:
-        - Third item in the list should be "360 Stereo"
+        - Third item in the list should be '360 Stereo'.
     -->
     <string name="video_mode_360_stereo">360 Stereo</string>
     <!--
     Description:
         This string is displayed when selecting a video playback mode.
     STRs:
-        2. Enter this URL: https://youtube.com
-        - Play any video.
-        - Make the video play in full screen.
-        - A video playback control bar should show under the browser window.
-        - Click on the video projection icon (glasses)
+        1. Enter this URL: https://youtube.com
+        2. Choose any video to play.
+        3. Make the video play in fullscreen mode.
+        4. A video-playback controls bar should appear under the browser window.
+        5. Press the video projection icon (glasses).
     Expected Result:
         - Fourth item in the list should be "180"
     -->
@@ -1024,11 +1056,11 @@
     Description:
         This string is displayed when selecting a video playback mode.
     STRs:
-        2. Enter this URL: https://youtube.com
-        - Play any video.
-        - Make the video play in full screen.
-        - A video playback control bar should show under the browser window.
-        - Click on the video projection icon (glasses)
+        1. Enter this URL: https://youtube.com
+        2. Choose any video to play.
+        3. Make the video play in fullscreen mode.
+        4. A video-playback controls bar should appear under the browser window.
+        5. Press the video projection icon (glasses).
     Expected Result:
         - Fifth item in the list should be "Stereo 180 Left to Right"
     -->
@@ -1037,11 +1069,11 @@
     Description:
         This string is displayed when selecting a video playback mode.
     STRs:
-        2. Enter this URL: https://youtube.com
-        - Play any video.
-        - Make the video play in full screen.
-        - A video playback control bar should show under the browser window.
-        - Click on the video projection icon (glasses)
+        1. Enter this URL: https://youtube.com
+        2. Choose any video to play.
+        3. Make the video play in fullscreen mode.
+        4. A video-playback controls bar should appear under the browser window.
+        5. Press the video projection icon (glasses).
     Expected Result:
         - Fifth item in the list should be "Stereo 180 Top to Bottom"
     -->
@@ -1050,18 +1082,18 @@
     Description:
         This string is displayed when selecting a video playback mode.
     STRs:
-        2. Enter this URL: https://youtube.com
-        - Play any video.
-        - Make the video play in full screen.
-        - A video playback control bar should show under the browser window.
-        - Click on the video projection icon (glasses)
+        1. Enter this URL: https://youtube.com
+        2. Choose any video to play.
+        3. Make the video play in fullscreen mode.
+        4. A video-playback controls bar should appear under the browser window.
+        5. Press the video projection icon (glasses).
     Expected Result:
         - Fifth item in the list should be "2D"
     -->
     <string name="video_mode_2d">2D</string>
     <!--
     Description:
-        This string is displayed as a tooltip in the video controls UI.
+        This string is displayed in a tooltip in the video controls UI.
     STRs:
         - N/A
     Expected Result:
@@ -1070,7 +1102,7 @@
     <string name="video_controls_play">Play</string>
     <!--
     Description:
-        This string is displayed as a tooltip in the video controls UI.
+        This string is displayed in a tooltip in the video controls UI.
     STRs:
         - N/A
     Expected Result:
@@ -1079,7 +1111,7 @@
     <string name="video_controls_pause">Pause</string>
     <!--
     Description:
-        This string is displayed as a tooltip in the video controls UI.
+        This string is displayed in a tooltip in the video controls UI.
     STRs:
         - N/A
     Expected Result:
@@ -1088,7 +1120,7 @@
     <string name="video_controls_mute">Mute</string>
     <!--
     Description:
-        This string is displayed as a tooltip in the video controls UI.
+        This string is displayed in a tooltip in the video controls UI.
     STRs:
         - N/A
     Expected Result:
@@ -1097,7 +1129,7 @@
     <string name="video_controls_unmute">Unmute</string>
     <!--
     Description:
-        This string is displayed as a tooltip in the video controls UI.
+        This string is displayed in a tooltip below the video controls UI.
     STRs:
         - N/A
     Expected Result:
@@ -1106,7 +1138,7 @@
     <string name="video_controls_volume">Volume</string>
     <!--
     Description:
-        This string is displayed as a tooltip in the video controls UI (e.g., Seek +10 seconds).
+        This string is displayed in a tooltip in the video controls UI (e.g., 'Seek +30 seconds').
     STRs:
         - N/A
     Expected Result:
@@ -1115,7 +1147,7 @@
     <string name="video_controls_seek_forward">Seek +%1$ seconds</string>
     <!--
     Description:
-        This string is displayed as a tooltip in the video controls UI (e.g., Seek -10 seconds).
+        This string is displayed in a tooltip in the video controls UI (e.g., 'Seek -15 seconds').
     STRs:
         - N/A
     Expected Result:
@@ -1125,7 +1157,7 @@
     <!--
     Description:
         This string is displayed in the video control seekbar when the media is not seekable
-        (e.g. a live stream video). Prefer a short text because it affects the width of the seek bar.
+        (e.g., a live video stream). Prefer a short text because it affects the width of the seek bar.
     STRs:
         - N/A
     Expected Result:
@@ -1134,33 +1166,7 @@
     <string name="video_controls_live">LIVE</string>
     <!--
     Description:
-        This string is displayed in the button that means the user accepts the
-        permission requested for in the permission dialog box.
-    STRs:
-        1. Click on the URL bar
-        2. Enter this URL: https://permission.site/
-        - Click on "Camera"
-    Expected Result:
-        - A dialog should show.
-        - There should be a button with he text 'Allow'.
-    -->
-    <string name="permission_allow">Allow</string>
-    <!--
-    Description:
-        This string is displayed in the button that means the user rejects the
-        permission requested for in the permission dialog box.
-    STRs:
-        1. Click on the URL bar
-        2. Enter this URL: https://permission.site/
-        - Click on "Camera"
-    Expected Result:
-        - A dialog should show.
-        - There should be a button with he text 'Don't Allow'.
-    -->
-    <string name="permission_reject">Don’t Allow</string>
-    <!--
-    Description:
-         This string is displayed as the title of the bookmarks page.
+         This string is displayed as the title of the Bookmarks List, which contains the user's bookmarked websites.
     STRs:
         - N/A
     Expected Result:
@@ -1169,7 +1175,9 @@
     <string name="bookmarks_title">Bookmarks</string>
     <!--
     Description:
-         This string is displayed as a tooltip in the bookmark remove button Bookmarks view.
+        This string is displayed in a tooltip that appears when a user hovers
+        over an icon representing 'Remove Bookmark' for an individual bookmark
+        item listed in the Bookmarks List.
     STRs:
         - N/A
     Expected Result:
@@ -1178,7 +1186,9 @@
     <string name="bookmarks_remove">Remove Bookmark</string>
     <!--
     Description:
-         This string is displayed as a tooltip in the bookmark edit button Bookmarks view.
+         This string is displayed in a tooltip that appears when a user hovers
+         over an icon representing 'Edit This Bookmark' for an individual bookmark
+         item listed in the Bookmarks List.
     STRs:
         - N/A
     Expected Result:
@@ -1187,7 +1197,7 @@
     <string name="bookmarks_edit">Edit This Bookmark</string>
     <!--
     Description:
-         This string is displayed as hint in the bookmark search text field.
+         This string is displayed as placeholder text in the search field in the Bookmarks List.
     STRs:
         - N/A
     Expected Result:
@@ -1196,7 +1206,7 @@
     <string name="bookmarks_search">Search Bookmarks</string>
     <!--
     Description:
-         This string is displayed as a tooltip in the bookmark button in the URL bar.
+         This string is displayed in a tooltip in the bookmark button in the URL bar.
     STRs:
         - N/A
     Expected Result:
@@ -1205,7 +1215,7 @@
     <string name="bookmarks_bookmark">Bookmark This Page</string>
     <!--
     Description:
-         This string is displayed in the Bookmarks view for as the header of the most recently
+         This string is displayed in the Bookmarks List for as the header of the most recently
          bookmarked items.
     STRs:
         - N/A
@@ -1215,7 +1225,7 @@
     <string name="bookmarks_recent">Recently Bookmarked</string>
     <!--
     Description:
-         This string is displayed in the Bookmarks view as a tooltip of the button for showing
+         This string is displayed in the Bookmarks List as a tooltip of the button for showing
          all the bookmarks.
     STRs:
         - N/A
@@ -1225,7 +1235,7 @@
     <string name="bookmarks_show_all">Show All Bookmarks</string>
     <!--
     Description:
-         This string is displayed as the title of the history view.
+         This string is displayed as the title of the History List.
     STRs:
         - N/A
     Expected Result:
@@ -1234,7 +1244,7 @@
     <string name="history_title">History</string>
     <!--
     Description:
-         This string is displayed in the history view as the header for the history items visited today.
+         This string is displayed in the History List as the header for the items visited today.
     STRs:
         - N/A
     Expected Result:
@@ -1243,8 +1253,7 @@
     <string name="history_today">Today</string>
     <!--
     Description:
-         This string is displayed in the history view as the header for the history items visited
-         lat week.
+         This string is displayed in the History List as the header for the items visited in the last week.
     STRs:
         - N/A
     Expected Result:
@@ -1253,8 +1262,9 @@
     <string name="history_week">Last 7 Days</string>
     <!--
     Description:
-         This string is displayed in the history view as the header for the history items visited
-         lat week.
+        This string is displayed in a tooltip that appears when a user hovers
+        over an icon representing 'Remove From History' for an individual history
+        item listed in the History List.
     STRs:
         - N/A
     Expected Result:
@@ -1263,7 +1273,7 @@
     <string name="history_remove">Remove From History</string>
     <!--
     Description:
-         This string is displayed as hint in the history search text field.
+         This string is displayed as placeholder text in the search field in the History List.
     STRs:
         - N/A
     Expected Result:
@@ -1272,7 +1282,7 @@
     <string name="history_search">Search History</string>
     <!--
     Description:
-         This string is displayed as the title of the downloads view.
+         This string is displayed as the title of the Downloads List.
     STRs:
         - N/A
     Expected Result:
@@ -1281,43 +1291,43 @@
     <string name="downloads_title">Downloads</string>
     <!--
     Description:
-         This string is displayed in a context menu when long clicking on a link.
+         This string is displayed in a context menu when long-pressing on a link in a website.
     STRs:
         - N/A
     Expected Result:
         - N/A
     -->
-    <string name="save_link">Save Link As...</string>
+    <string name="save_link">Save Link As…</string>
     <!--
     Description:
-         This string is displayed in a context menu when long clicking on a link.
+         This string is displayed in a context menu when long-pressing on a website.
     STRs:
         - N/A
     Expected Result:
         - N/A
     -->
-    <string name="save_page">Save Page As...</string>
+    <string name="save_page">Save Page As…</string>
     <!--
     Description:
-         This string is displayed in a context menu when long clicking on a link.
+         This string is displayed in a context menu when long-pressing on a link in a website.
     STRs:
         - N/A
     Expected Result:
         - N/A
     -->
-    <string name="open_in_window">Open Link In A New Window</string>
+    <string name="open_in_window">Open Link in New Window</string>
     <!--
     Description:
-        This string is displayed in a context menu when long clicking on a link.
+        This string is displayed in a context menu when long-pressing on a link in a website.
     STRs:
         - N/A
     Expected Result:
         - N/A
     -->
-    <string name="open_in_tab">Open Link In A New Tab</string>
+    <string name="open_in_tab">Open Link in New Tab</string>
     <!--
     Description:
-        This string is displayed in a context menu when long clicking on a link.
+        This string is displayed in a context menu when long-pressing on a link in a website.
     STRs:
         - N/A
     Expected Result:
@@ -1326,7 +1336,7 @@
     <string name="open_in_private_window">Open Link in New Private Window</string>
     <!--
     Description:
-        This string is displayed in a context menu when long clicking on a link.
+        This string is displayed in a context menu when long-pressing on a link in a website.
     STRs:
         - N/A
     Expected Result:
@@ -1335,7 +1345,7 @@
     <string name="copy_link_location">Copy Link Location</string>
     <!--
     Description:
-        This string is displayed in a context menu when long clicking on a link.
+        This string is displayed in a context menu when long-pressing on a link in a website.
     STRs:
         - N/A
     Expected Result:
@@ -1344,7 +1354,7 @@
     <string name="bookmark_link">Bookmark This Link</string>
     <!--
     Description:
-         This string is displayed for January across the app (e.g., in History, Downloads, Bookmarks, etc.).
+         This string is displayed for the month, 'January', across the app (e.g., in History, Downloads, Bookmarks, etc.).
     STRs:
         - N/A
     Expected Result:
@@ -1353,7 +1363,7 @@
     <string name="months_january">January</string>
     <!--
     Description:
-         This string is displayed for February across the app (e.g., in History, Downloads, Bookmarks, etc.).
+         This string is displayed for the month, 'February', across the app (e.g., in History, Downloads, Bookmarks, etc.).
     STRs:
         - N/A
     Expected Result:
@@ -1362,7 +1372,7 @@
     <string name="months_february">February</string>
     <!--
     Description:
-         This string is displayed for March across the app (e.g., in History, Downloads, Bookmarks, etc.).
+         This string is displayed for the month, 'March', across the app (e.g., in History, Downloads, Bookmarks, etc.).
     STRs:
         - N/A
     Expected Result:
@@ -1371,7 +1381,7 @@
     <string name="months_march">March</string>
     <!--
     Description:
-         This string is displayed for April across the app (e.g., in History, Downloads, Bookmarks, etc.).
+         This string is displayed for the month, 'April', across the app (e.g., in History, Downloads, Bookmarks, etc.).
     STRs:
         - N/A
     Expected Result:
@@ -1380,7 +1390,7 @@
     <string name="months_april">April</string>
     <!--
     Description:
-         This string is displayed for June across the app (e.g., in History, Downloads, Bookmarks, etc.).
+         This string is displayed for the month, 'June', across the app (e.g., in History, Downloads, Bookmarks, etc.).
     STRs:
         - N/A
     Expected Result:
@@ -1389,7 +1399,7 @@
     <string name="months_june">June</string>
     <!--
     Description:
-         This string is displayed for July across the app (e.g., in History, Downloads, Bookmarks, etc.).
+         This string is displayed for the month, 'July', across the app (e.g., in History, Downloads, Bookmarks, etc.).
     STRs:
         - N/A
     Expected Result:
@@ -1398,7 +1408,7 @@
     <string name="months_july">July</string>
     <!--
     Description:
-         This string is displayed for August across the app (e.g., in History, Downloads, Bookmarks, etc.).
+         This string is displayed for the month, 'August', across the app (e.g., in History, Downloads, Bookmarks, etc.).
     STRs:
         - N/A
     Expected Result:
@@ -1407,7 +1417,7 @@
     <string name="months_august">August</string>
     <!--
     Description:
-         This string is displayed for September across the app (e.g., in History, Downloads, Bookmarks, etc.).
+         This string is displayed for the month, 'September', across the app (e.g., in History, Downloads, Bookmarks, etc.).
     STRs:
         - N/A
     Expected Result:
@@ -1416,7 +1426,7 @@
     <string name="months_september">September</string>
     <!--
     Description:
-         This string is displayed for October across the app (e.g., in History, Downloads, Bookmarks, etc.).
+         This string is displayed for the month, 'October', across the app (e.g., in History, Downloads, Bookmarks, etc.).
     STRs:
         - N/A
     Expected Result:
@@ -1425,7 +1435,7 @@
     <string name="months_october">October</string>
     <!--
     Description:
-         This string is displayed for November across the app (e.g., in History, Downloads, Bookmarks, etc.).
+         This string is displayed for the month, 'November', across the app (e.g., in History, Downloads, Bookmarks, etc.).
     STRs:
         - N/A
     Expected Result:
@@ -1434,7 +1444,7 @@
     <string name="months_november">November</string>
     <!--
     Description:
-         This string is displayed for December across the app (e.g., in History, Downloads, Bookmarks, etc.).
+         This string is displayed for the month, 'December', across the app (e.g., in History, Downloads, Bookmarks, etc.).
     STRs:
         - N/A
     Expected Result:
@@ -1443,8 +1453,7 @@
     <string name="months_december">December</string>
     <!--
     Description:
-         This string is for items that were recently modified across the
-         app (History, Downloads, Bookmarks, etc.).
+         This string is for items that were recently modified across the app (e.g., in History, Downloads, Bookmarks, etc.).
     STRs:
         - N/A
     Expected Result:
@@ -1453,7 +1462,7 @@
     <string name="recently_modified">Recently Modified</string>
     <!--
     Description:
-         This text is shown in the button for opening a new tab.
+         This text is shown in the button for opening a new tab in the browser.
     STRs:
         - N/A
     Expected Result:
@@ -1462,7 +1471,7 @@
     <string name="new_tab">New Tab</string>
     <!--
     Description:
-         This text is shown in the button for closing a new tab.
+         This text is shown in the button for closing an open tab in the browser.
     STRs:
         - N/A
     Expected Result:
@@ -1471,7 +1480,7 @@
     <string name="close_tab">Close Tab</string>
     <!--
     Description:
-         This text is shown in the button for opening a new window.
+         This text is shown in the button for opening a new window in the browser.
     STRs:
         - N/A
     Expected Result:
@@ -1480,7 +1489,7 @@
     <string name="new_window">New Window</string>
     <!--
     Description:
-         This text is shown in the button for opening a new private window.
+         This text is shown in the button for opening a new private window in the browser.
     STRs:
         - N/A
     Expected Result:
@@ -1489,7 +1498,7 @@
     <string name="new_private_window">New Private Window</string>
     <!--
     Description:
-         This text is shown in the button for restoring the previous session.
+         This text is shown in the button for restoring tabs that were open during the user's previous browsing session.
     STRs:
         - N/A
     Expected Result:
