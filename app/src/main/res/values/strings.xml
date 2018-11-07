@@ -359,4 +359,8 @@
     <string name="restore_session">Restore Previous Session</string>
     <!-- This text is shown in the button for reloading the current page. -->
     <string name="reload_page">Reload Current Page</string>
+    <!-- This string labels the Reset button that restores the default display settings values. -->
+    <string name="display_options_reset">Reset Display Settings</string>
+    <!-- This string labels the Reset button that restores the default voice search language settings values. -->
+    <string name="language_options_reset">Reset Voice Search Language Settings</string>
 </resources>
