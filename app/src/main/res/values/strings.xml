@@ -1,4 +1,7 @@
 <resources>
+    <!-- IMPORTANT NOTE: If this file is updated anyhow, the STRs wiki must be updated accordingly:
+    https://github.com/MozillaReality/FirefoxReality/wiki/L10n -->
+
     <!-- This string is used on the virtual keyboard to label the 'Enter' key (stylized in uppercase letters as 'ENTER'). -->
     <string name="keyboard_enter_label">ENTER</string>
     <!-- This string is displayed in the button that means the user accepts the
