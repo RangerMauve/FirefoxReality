@@ -75,6 +75,20 @@
          opens a dialog box that contains language-related settings. -->
     <string name="settings_language">Language</string>
 
+    <!-- This string is used to label a text label for selecting the language in the 'Language' dialog window
+         (accessible from the browser's Settings' dialog window). Below this string appears a list of locales for
+         the user to choose as their preferred reading languages for website content. Each locale,
+         as `language-tag` strings, is then included in the browser's `Accept-Language` HTTP request
+         header that is sent to websites, as well as the JavaScript property, `navigator.language`. -->
+    <string name="settings_language_choose_language_webpage_content">Choose your preferred language for displaying pages</string>
+
+    <!-- This string is used to label a text label for selecting the language in the 'Language' dialog window
+         (accessible from the browser's Settings' dialog window). Below this string appears a list of locales for
+         the user to choose as their preferred language for the browser's speech-to-text 'Voice Search' system.
+         Based on the user's selection, the printed language is mapped to its ISO 639-1 code
+         (e.g., `Español` is mapped to `es`) when configured in the 'Voice Search' system. -->
+    <string name="settings_language_choose_language_voice_search">Choose your preferred language for voice search</string>
+
     <!-- This string is used to label a radio button in the 'Settings' Language dialog that, when pressed,
          changes the app and the language of the speech-recognition-based search to 'English (US)'. -->
     <string name="settings_language_english">English (US)</string>
@@ -472,4 +486,66 @@
 
     <!-- This string labels the Reset button that restores the default voice search language settings values. -->
     <string name="language_options_reset">Reset Voice Search Language Settings</string>
+
+    <!-- This string is for the table column name (in the browser's 'Bookmarks' list) for the 'Name' of the bookmarked website. -->
+    <string name="col_name">Name</string>
+
+    <!-- This string is for the table column name (in the browser's 'Bookmarks' list) for the 'Tags' of the bookmarked website. -->
+    <string name="col_tags">Tags</string>
+
+    <!-- This string is for the table column name (in the browser's 'Bookmarks' list) for the 'Location' (or 'URL' or 'Address') of the bookmarked website. -->
+    <string name="col_url">Location</string>
+
+    <!-- This string is for the table column name (in the browser's 'Bookmarks' list) for the date of when the bookmarked website was most recently visited. -->
+    <string name="col_most_recent_visit">Most Recent Visit</string>
+
+    <!-- This string is for the table column name (in the browser's 'Bookmarks' list) for the date of when the website was bookmarked. -->
+    <string name="col_date_added">Added</string>
+
+    <!-- This string is for the table column name (in the browser's 'Bookmarks' list) for the date of when the bookmarked website was last edited. -->
+    <string name="col_date_last_modified">Last Modified</string>
+
+    <!-- This string is for the tooltip that appears upon hovering the 'Back' button in the browser's navigation bar.
+         'Back' refers to going back one page in 'History'. -->
+    <string name="back_tooltip">Back</string>
+
+    <!-- This string is for the tooltip that appears upon hovering the 'Forward' button in the browser's navigation bar.
+         'Forward' refers to going back one page in 'History'. -->
+    <string name="forward_tooltip">Forward</string>
+
+    <!-- This string is for the tooltip that appears upon hovering the 'Forward' button in the browser's navigation bar.
+         'Refresh' refers to reloading the current page. -->
+    <string name="refresh_tooltip">Refresh</string>
+
+    <!-- This string is for the tooltip that appears upon hovering the 'Home' button in the browser's navigation bar.
+         'Home' refers to the browser's start page (e.g., the Firefox Reality Home Page). -->
+    <string name="home_tooltip">Home</string>
+
+    <!-- This string is for the tooltip that appears upon hovering the 'Voice Search' (microphone) button in the
+         browser's navigation bar. 'Voice Search' refers to the browser's system for searching the Web using
+         speech-to-text recognition. -->
+    <string name="voice_search_tooltip">Voice Search</string>
+
+    <!-- This string is for the tooltip that when clicking the 'Info' (ⓘ) icon visible next to the current website's
+         URL in the URL bar. The button it labels, when pressed, shows information about the site. -->
+    <string name="site_info_tooltip">Show site info.</string>
+
+    <!-- This string is for the tooltip that appears when the user is not in the browser's Private Browsing mode
+         and hovers over the 'Private Browsing' icon in the browser's tray menu. -->
+    <string name="private_browsing_enter_tooltip">Enter Private Browsing</string>
+
+    <!-- This string is for the tooltip that appears when the user is in the browser's Private Browsing mode
+         and hovers over the 'Private Browsing' icon in the browser's tray menu. -->
+    <string name="private_browsing_exit_tooltip">Exit Private Browsing</string>
+
+    <!-- This string is for the tooltip that appears when the user hovers over the 'Bookmarks' icon in the
+         browser's navigation bar. The button it labels, when pressed, opens a list view of the user's saved
+         Bookmarks. -->
+    <string name="bookmarks_tooltip">Bookmarks</string>
+
+    <!-- This string is for the tooltip that appears when the user hovers over the down-arrow icon that appears in the
+         URL bar upon hover. The icon it labels, when pressed, expands a list of recently visited websites in the
+         user's History. -->
+    <string name="show_history_tooltip">Show history</string>
+
 </resources>
