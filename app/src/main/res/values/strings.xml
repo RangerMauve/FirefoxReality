@@ -38,16 +38,28 @@
     <string name="settings_telemetry">Telemetry</string>
     <!-- This string is used to label a button that when pressed loads a Web page the
          describes Mozilla's privacy policy. -->
-    <string name="settings_privacy">Privacy Policy</string>
+    <string name="settings_privacy">Privacy &amp; Security</string>
+    <!-- This string is used to label a button in the settings dialog that when pressed
+         opens a dialog box that contains setting an application or Web developer might want to change. -->
+    <string name="settings_developer_options">Developer Options</string>
+    <!-- This string is used to label a button in the settings dialog that when pressed
+         opens a dialog box that contains language related settings. -->
+    <string name="settings_language">Language</string>
+    <!-- This string is used to label a button in the settings dialog that when pressed
+         opens a dialog box that contains display related settings: window size, disnplay density, etc -->
+    <string name="settings_display">Display</string>
+    <!-- This string is used to label a button in the settings dialog that when pressed
+         opens a dialog box that contains controller related options: pointer color -->
+    <string name="settings_controller_options">Controller Options</string>
+    <!-- This string is used to label a button in the settings dialog that when pressed
+         opens a dialog box that contains options related with the speech data reporting -->
+    <string name="settings_report_speech_data">Report Speech Data</string>
     <!-- This string is used to label a button that when pressed loads a Web page
          that allows the user file an issue or problem they may have encountered while using the
          application or while visiting a site. -->
     <string name="settings_report_issue">Report an issue</string>
     <!-- This string is used in place of 'settings_version' for developer builds. -->
     <string name="settings_version_developer">Developer Build</string>
-    <!-- This string is used to label a button in the settings dialog that when pressed
-         opens a dialog box that contains setting an application or Web developer might want to change. -->
-    <string name="settings_developer_options">Developer Options</string>
     <!-- This string is the title of a dialog box shown to the user when a settings
          change requires the application to restart. -->
     <string name="restart_dialog_restart">Restart Required</string>
@@ -231,4 +243,16 @@
     <string name="permission_allow">Allow</string>
     <!-- This string is displayed in the permission dialog button for reject the permission -->
     <string name="permission_reject">Don\'t Allow</string>
+    <string name="display_options_reset">Reset Display Settings</string>
+    <string name="language_options_reset">Reset Voice Search Language Settings</string>
+    <string name="settings_language_choose_language_voice_search">Choose your preferred language for voice search</string>
+    <string name="settings_language_english">English (US)</string>
+    <string name="settings_language_traditional_chinese">Chinese (Traditional/Zhuyin)</string>
+    <string name="settings_language_simplified_chinese">Chinese (Simplified/Pinyin)</string>
+    <string name="settings_language_japanese">Japanese</string>
+    <string name="settings_language_french">French</string>
+    <string name="settings_language_german">German</string>
+    <string name="settings_language_spanish">Spanish</string>
+    <string name="settings_language_korean">Korean</string>
+    <string name="settings_language_italian">Italian</string>
 </resources>
